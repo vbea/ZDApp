@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.binxin.zdapp"
+	android:versionCode="6752"
+	android:versionName="6.7.5">
+    
+	<uses-sdk 
+        android:minSdkVersion="10"
+        android:maxSdkVersion="22" />
+	<!--android:targetSdkVersion="15"-->
+	<!--正德应用SDK兼容说明(SDK:API Level=安卓版本)
+		SDK:4 =android 1.6
+		SDK:5 =android 2.0
+		SDK:7 =android 2.1
+		SDK:8 =android 2.2
+		SDK:9 =android 2.3
+		SDK:10=android 2.3.3  *使用
+		SDK:11=android 3.0
+		SDK:14=android 4.0/4.0.1/4.0.2/4.0.3
+		SDK:15=android 4.0.3/4.0.4   *使用
+		SDK:16=android 4.1
+		SDK:17=android 4.2
+		SDK:18=android 4.3
+		SDK:19=android 4.4
+		SDK:20=android 4.4.4
+		SDK:21=android 5.0/5.0.1/5.0.2
+		SDK:22=android 5.1	*使用
+	权限列表：-->
+	<uses-permission android:name="android.permission.FACTORY_TEST" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WIFI_AP_STATE_CHANGED"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+	<uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<!--uses-permission android:name="android.permission.RECEIVE_SMS"/-->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<!--新增-->
+	<uses-permission android:name="android.permission.FLASHLIGHT" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.DEVICE_POWER" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<!--uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/-->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+	<uses-permission android:name="android.permission.SHUTDOWN"></uses-permission>
+	<uses-permission android:name="android.permission.REBOOT"/>
+	<!--这里的权限暂时不用-->
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="android.permission.READ_LOGS"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+	<uses-permission android:name="android.permission.WRITE_SMS"/>
+    <application
+		android:name=".MainApplication"
+		android:icon="@drawable/icon"
+		android:allowBackup="true"
+		android:sharedUserId="android.uid.system"
+		android:label="@string/app_name"
+		android:windowSoftInputMode="stateVisible|adjustPan"
+		android:configChanges="locale">
+        <activity
+			android:name=".MainActivity"
+			android:screenOrientation="portrait"
+			android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+			android:name=".activity.About"
+			android:label="@string/about"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.AdvancePowerManagement"
+			android:label="@string/power_adv"
+			android:sharedUserId="android.uid.system">
+		</activity>
+		<activity
+			android:name=".activity.App_additional"
+			android:label="@string/addition"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_audiotest"
+			android:label="@string/audiotest"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_bmi"
+			android:label="@string/bm_bmi"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_calculator"
+			android:label="@string/calculator"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_cdecode"
+			android:label="@string/cdecode"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_colorLight"
+			android:label="@string/light"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.App_compass"
+			android:label="@string/compass"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_comtorch"
+			android:label="@string/comtorch"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_contact"
+			android:label="@string/smtxl"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_countDown"
+			android:label="@string/countdown"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_decode"
+			android:label="@string/decode"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_filemanager"
+			android:label="@string/files"
+			android:theme="@style/AppTheme">
+		</activity>
+		<activity
+			android:name=".activity.App_filemng"
+			android:label="@string/files"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_hardware"
+			android:label="@string/hardtest"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_joke"
+			android:label="@string/joke"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_light"
+			android:label="@string/torch"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.App_lightColor"
+			android:label="@string/light"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.App_robotChat"
+			android:label="@string/ct_xidai"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_scale"
+			android:label="@string/scale"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.App_sensor"
+			android:label="@string/sensor"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_timer"
+			android:label="@string/timer"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_torch"
+			android:label="@string/torch"
+			android:theme="@style/NoTitle"
+			android:exported="true">
+		</activity>
+		<activity
+			android:name=".activity.App_wifiap"
+			android:label="@string/wifiap"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.App_widget"
+			android:label="@string/widget2013"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.Bookmark"
+			android:label="@string/file_book"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.BxaSchool"
+			android:label="@string/bxa"
+			android:theme="@style/NoTitle">
+		</activity> 
+		<activity
+			android:name=".activity.ContactEditor"
+			android:label="@string/editor_user"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
+			android:name=".activity.ContactView"
+			android:label="@string/view_user"
+			android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+		<activity
+			android:name=".activity.DecodeShow"
+			android:label="@string/decode"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.DemoActivity2"
+			android:label="@string/demo3d"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitleF">
+		</activity>
+		<activity
+			android:name=".activity.DemoActivity"
+			android:label="@string/demo3d"
+			android:screenOrientation="landscape"
+			android:theme="@style/NoTitleF">
+		</activity>
+		<activity
+			android:name=".activity.DeviceQuery"
+			android:label="@string/device"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.DownloadCode"
+			android:label="@string/osl_down"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.Eula"
+			android:label="@string/torch">
+		</activity>
+		<activity
+			android:name=".activity.Help"
+			android:theme="@style/NoTitleH"
+			android:label="@string/help_cen">
+		</activity>
+		<activity
+			android:name=".activity.Help_doc"
+			android:theme="@style/NoTitleH"
+			android:label="@string/help_doc">
+		</activity>
+		<activity
+			android:name=".activity.History"
+			android:label="@string/history"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.History_dev"
+			android:label="@string/osl_his"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.HtmlViewer"
+			android:label="@string/htmlreader"
+			android:theme="@style/NoTitle">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="file" />
+				<data android:mimeType="text/html" />
+				<data android:pathPattern="*.htm" />
+				<data android:pathPattern="*.html" />
+            </intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.LogView"
+			android:label="@string/txtReader"
+			android:theme="@style/NoTitle">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+				<data android:scheme="file" />
+				<data android:mimeType="text/*" />
+				<data android:mimeType="application/log" />
+				<data android:pathPattern="*.log" />
+            </intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.Main"
+			android:theme="@style/NoTitle"
+			android:label="@string/hello">
+		</activity>
+		<activity
+			android:name=".activity.Main_new"
+			android:theme="@style/NoTitle"
+			android:label="@string/hello">
+		</activity>
+		<activity
+			android:name=".activity.More"
+			android:label="@string/abt"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.MyContacts"
+			android:label="@string/smtxl">
+		</activity>
+		<activity
+			android:name=".activity.OpenSource"
+			android:label="@string/osl_code"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.PasswordKey"
+			android:label="@string/passwordkey"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.Password_edit"
+			android:label="@string/sm_password"
+			android:theme="@style/NTD">
+		</activity>
+		<activity
+			android:name=".activity.Password_new"
+			android:label="@string/sm_password"
+			android:theme="@style/NTD">
+		</activity>
+		<activity
+			android:name=".activity.Password_off"
+			android:label="@string/sm_password"
+			android:theme="@style/NTD">
+		</activity>
+		<activity
+			android:name=".activity.Password_on"
+			android:label="@string/sm_password"
+			android:theme="@style/NTD">
+		</activity>
+		<activity
+			android:name=".activity.PointerLocation"
+			android:label="@string/scrtorch"
+			android:theme="@style/NT">
+		</activity>
+		<activity
+			android:name=".activity.QuickTorch"
+			android:label="@string/torch"
+			android:finishOnTaskLaunch="true">
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH_LONG_PRESS" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.SelectAudio"
+			android:label="@string/files"
+			android:theme="@style/NTD">
+		</activity>
+		<activity
+			android:name=".activity.Set_background"
+			android:label="@string/menu_settings"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.Set_theme"
+			android:label="@string/menu_settings"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.Settings"
+			android:label="@string/menu_settings"
+			android:sharedUserId="android.uid.system"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.Syxy"
+			android:label="@string/syxy2"
+			android:theme="@style/NTD">
+		</activity>
+		<activity
+			android:name=".activity.Vbea_about"
+			android:label="@string/vbea"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".activity.Vbea_anq"
+			android:label="@string/zdapp_anq"
+			android:theme="@style/NoTitleH">
+		</activity>
+		<activity
+			android:name=".activity.Welcome"
+			android:screenOrientation="portrait"
+			android:theme="@style/NoTitleF">
+		</activity>
+		<activity
+			android:name=".activity.ZDApp"/>
+		<!--广点通所用Activity-->
+		<service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported="false" >
+        </service>
+        <activity
+			android:name="com.qq.e.ads.AdActivity"
+			android:theme="@android:style/Theme.Translucent">
+        </activity> 
+		<!--轻松一刻所用Activity-->
+		<!--屏幕测试所用Activity-->
+		<activity
+			android:name=".colors.B_W"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.B_W_B"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Black"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Blue"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Blue_com"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Color"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.End"
+			android:label="@string/scrtest"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".colors.Fuchsia"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Green"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Green_com"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Grey"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Lightblue"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Main"
+			android:label="@string/scrtest"
+			android:theme="@style/NoTitle">
+		</activity>
+		<activity
+			android:name=".colors.Red"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Red_com"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.W_B"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.W_B_W"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".colors.Yellow"
+			android:label="@string/scrtest"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+		<activity
+			android:name=".activity.TestMd5">
+		</activity>
+		<provider
+			android:name=".activity.ContactsProvider"
+			android:authorities="com.binxin.zdapp.provider.ContactsProvider">
+		</provider>
+		<activity
+			android:name=".classes.ColorPickerDialog"
+			android:theme="@style/HDg">
+		</activity>
+		<!--意见反馈Activity-->
+		<activity
+			android:name="com.umeng.fb.ConversationActivity"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		<activity
+			android:name="com.umeng.fb.ContactActivity"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+		<!--检查更新-->
+		<service
+			android:name="com.umeng.update.net.DownloadingService"
+			android:process=":DownloadingService">
+		</service>
+		<activity
+			android:name="com.umeng.update.UpdateDialogActivity"
+			android:theme="@android:style/Theme.Holo.Light.Dialog">
+		</activity>
+		<!--分享编辑页-->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+		<activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID-->
+                <data android:scheme="1150078134" /> 
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+		<activity
+			android:name=".wxapi.WXEntryActivity"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:exported="true"
+			android:screenOrientation="portrait" />
+		<meta-data android:value="542e29ccfd98c5485b0685aa" android:name="UMENG_APPKEY"></meta-data>
+		<meta-data android:value="MyApp" android:name="UMENG_CHANNEL"></meta-data>
+		<!--桌面小部件Activity-->
+		<receiver
+			android:label="@string/date"
+			android:name=".widgets.TodayDate">
+            <intent-filter>
+                <action
+					android:name="android.appwidget.action.APPWIDGET_UPDATE">
+				</action>
+            </intent-filter>
+            <meta-data
+				android:name="android.appwidget.provider"
+				android:resource="@xml/widget">
+			</meta-data>
+        </receiver>
+        <receiver
+			android:label="@string/date_small"
+			android:name=".widgets.TodayDateSmall">
+            <intent-filter>
+                <action
+					android:name="android.appwidget.action.APPWIDGET_UPDATE">
+				</action>
+            </intent-filter>
+            <meta-data
+				android:name="android.appwidget.provider"
+				android:resource="@xml/widget_small">
+			</meta-data>
+        </receiver>
+        <receiver
+            android:name=".widgets.Widget_time"
+            android:label="@string/widget_name" >
+            <intent-filter>
+                <action
+					android:name="android.appwidget.action.APPWIDGET_UPDATE" >
+				</action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_time" >
+			</meta-data>
+        </receiver> 
+		<receiver
+			android:label="@string/app_torch"
+			android:name=".widgets.Widget_torch">
+            <intent-filter>
+                <action
+					android:name="android.appwidget.action.APPWIDGET_UPDATE">
+				</action>
+            </intent-filter>
+            <meta-data
+				android:name="android.appwidget.provider"
+				android:resource="@xml/torch">
+			</meta-data>
+        </receiver>
+		<meta-data
+			android:name="TA_APPKEY"
+			android:value="Aqc1150078134"/>
+		<meta-data
+			android:name="InstallChannel"
+			android:value="myapp" />
+    </application>
+</manifest>

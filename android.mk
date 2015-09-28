@@ -1,0 +1,3 @@
+LOCAL_CFLAGS += -pie -fPIE
+LOCAL_LDFLAGS += -pie -fPIE
+LOCAL_CERTIFICATE:=platform
