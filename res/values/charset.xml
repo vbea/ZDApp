@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="array_charset">
+		<item>Auto</item>
+		<item>UTF-8</item>
+		<item>GBK</item>
+		<item>GB2312</item>
+		<item>BIG5</item>
+		<item>ASCII</item>
+		<item>EUC-KR</item>
+		<item>EUC-JP</item>
+		<item>EUC-TW</item>
+		<item>Windows-1251</item>
+		<item>Windows-1252</item>
+		<item>Windows-1253</item>
+		<item>Windows-1255</item>
+		<item>Shift_JIS</item>
+		<item>UTF-16</item>
+		<item>UTF-16LE</item>
+		<item>UTF-16BE</item>
+		<item>UTF-32</item>
+		<item>UTF-32LE</item>
+		<item>UTF-32BE</item>
+		<item>ISO-2022-CN</item>
+		<item>ISO-2022-JP</item>
+		<item>ISO-2022-KR</item>
+		<item>ISO-8859-1</item>
+		<item>ISO-8859-2</item>
+		<item>ISO-8859-3</item>
+		<item>ISO-8859-4</item>
+		<item>ISO-8859-5</item>
+		<item>ISO-8859-6</item>
+		<item>ISO-8859-7</item>
+		<item>ISO-8859-8</item>
+		<item>ISO-8859-9</item>
+		<item>ISO-8859-10</item>
+		<item>ISO-8859-11</item>
+		<item>ISO-8859-13</item>
+		<item>ISO-8859-14</item>
+		<item>ISO-8859-15</item>
+		<item>ISO-8859-16</item>
+		<item>KOI8-R</item>
+		<item>MACCYRILLIC</item>
+		<item>IBM855</item>
+		<item>IBM866</item>
+	</array>
+</resources>

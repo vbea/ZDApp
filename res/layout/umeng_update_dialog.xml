@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+	android:paddingTop="10dp"
+	android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <!-- Title -->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/umeng_update_wifi_indicator"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="@string/UMGprsCondition"
+                android:src="@drawable/update_wifi_disable" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_toEndOf="@id/umeng_update_wifi_indicator"
+				android:layout_centerVertical="true"
+				android:layout_marginLeft="5dp"
+                android:text="@string/UMUpdateTitle"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+				android:paddingLeft="10dp"/>
+            
+            <Button
+                android:id="@+id/umeng_update_id_close"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:layout_marginRight="10dp"
+				android:focusable="true"
+				android:visibility="gone"
+				android:background="@drawable/update_button_close_bg_selector"/>
+
+        </RelativeLayout>
+        <!-- Content -->
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="10dp" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/umeng_update_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:focusable="true"
+                    android:textColor="#333333"
+					android:textSize="16sp"/>
+            </LinearLayout>
+        </ScrollView>
+        
+        <!-- Ignore CheckBox -->
+
+		<CheckBox
+		    android:id="@+id/umeng_update_id_check"
+	        android:layout_width="fill_parent"
+	        android:layout_height="32dp"
+	        android:text="@string/UMIgnore"
+	        android:button="@drawable/update_button_check_selector"
+	        android:textColor="#AAABAF" />
+
+        <!-- OK&Cancel Button -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+			android:layout_marginTop="5dp"
+			android:layout_gravity="right|center_vertical"
+			android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/umeng_update_id_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_btn_dialog"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="@string/UMUpdateNow"
+				android:focusable="true"
+                android:textColor="#007777"
+				android:paddingTop="5dp"
+				android:paddingBottom="5dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"/>
+			
+            <Button
+                android:id="@+id/umeng_update_id_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_btn_dialog"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="@string/UMNotNow"
+				android:focusable="false"
+                android:textColor="#007777"
+				android:paddingTop="5dp"
+				android:paddingBottom="5dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"/>
+
+            <Button
+                android:id="@+id/umeng_update_id_ignore"
+				android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn_dialog"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="@string/UMIgnore"
+				android:focusable="false"
+                android:textColor="#007777"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/homePage_layout2">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:orientation="horizontal"
+		android:paddingTop="8dp">
+		<!--Button
+			android:id="@+id/app_wifiap"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_wifiap"
+			android:text="@string/wifiapp"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/-->
+
+		<Button
+			android:id="@+id/hard"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingRight="2dp"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_hard"
+			android:text="@string/hardtest"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/>
+
+		<Button
+			android:id="@+id/timer"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/timer"
+			android:textColor="@color/ic_app_text"
+			android:drawableTop="@drawable/ic_app_timer"
+			android:background="@drawable/bg_btn_app"/>
+		<Button
+			android:id="@+id/app_countdown"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_countdown"
+			android:text="@string/countdown"
+			android:textColor="@color/ic_app_text"/> 
+		
+		<Button
+			android:id="@+id/appbmi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingRight="2dp"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_bmi"
+			android:text="@string/bm_bmi"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/>
+		
+		<Button
+			android:id="@+id/credecode"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingRight="2dp"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_decode"
+			android:text="@string/cdecode"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/>
+		<Button
+			android:id="@+id/calculator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_calculator"
+			android:text="@string/scale"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/> 
+	</LinearLayout>
+
+</LinearLayout>
+

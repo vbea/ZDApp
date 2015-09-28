@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fitsSystemWindows="true"
+	android:clipToPadding="false">
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/audiotest"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/filename"
+		android:textSize="20sp"
+		android:textColor="@color/black"
+		android:paddingLeft="10dp"
+		android:paddingTop="5dp"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:orientation="horizontal"
+		android:gravity="center_vertical"
+		android:background="@drawable/ui_editext">
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="46dp"
+			android:layout_weight="1"
+			android:text=""
+			android:id="@+id/filename"
+			android:hint="@string/filename"
+			android:background="@null"
+			android:textSize="18sp"
+			android:textColor="@color/blue"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:singleLine="true"
+			android:ellipsize="end"/>
+
+		<ImageButton
+			android:id="@+id/atbtnFile"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:src="@drawable/ic_file_audio"
+			android:paddingRight="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="65dp"
+		android:layout_gravity="center"
+		android:padding="10dp"
+		android:gravity="center">
+
+		<Button
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text="@string/playbutton"
+			android:onClick="mediaplay"
+			android:id="@+id/playbutton"
+			android:gravity="center"
+			android:background="@drawable/bg_btn_fans"
+			android:paddingLeft="0dp"
+			android:textSize="18sp"/>
+
+		<Button
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text="@string/stopbutton"
+			android:onClick="mediaplay"
+			android:id="@+id/stopbutton"
+			android:gravity="center"
+			android:background="@drawable/bg_btn_audio"
+			android:layout_marginLeft="0dp"
+			android:paddingLeft="0dp"
+			android:paddingRight="0dp"
+			android:textSize="18sp"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="20dp"
+		android:layout_marginTop="5dp"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:gravity="center_vertical">
+	<TextView
+		android:id="@+id/adtxt_duration"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="00:00"
+		android:textSize="14sp"/>
+
+	<ProgressBar
+		android:id="@+id/audiotestProgressBar"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="5dp"
+		android:layout_width="wrap_content"
+		android:layout_weight="1"
+		android:layout_marginLeft="2dp"
+		android:layout_marginRight="2dp"
+		android:progressDrawable="@drawable/ui_play_progress"/>
+	
+	<TextView
+		android:id="@+id/duration_total"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="00:00"
+		android:textSize="14sp"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginBottom="2dp">
+
+			<com.binxin.zdapp.view.CustomTextView
+				android:id="@+id/TextTest2"
+				android:layout_width="wrap_content"
+				android:layout_height="30dp"
+				android:textColor="@color/dodgerblue"
+				android:textSize="18sp"
+				android:singleLine="true"
+				android:layout_centerInParent="true"/>
+
+			<TextView
+				android:id="@+id/txtMusicName"
+				android:layout_width="wrap_content"
+				android:layout_height="30dp"
+				android:layout_marginTop="3dp"
+				android:textSize="18sp"
+				android:singleLine="true"
+				android:layout_centerInParent="true"/>
+
+		</RelativeLayout>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/TextTest1"
+			android:gravity="center"
+			android:text="请输入文件名并点击播放按钮来测试"
+			android:textColor="@color/blue"
+			android:textSize="18sp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

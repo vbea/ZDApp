@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="spnner">
+		<item>select</item>
+		<item>male</item>
+		<item>female</item>
+	</array>
+	<array name="bm_gender">
+		<item>female</item>
+		<item>male</item>
+		<item>boy</item>
+		<item>girl</item>
+	</array>
+	<array name="hexadecimal">
+		<item>2进制</item>
+		<item>4进制</item>
+		<item>6进制</item>
+		<item>8进制</item>
+		<item>10进制</item>
+		<item>16进制</item>
+	</array>
+	<array name="hexadecimal2">
+		<item>2进制</item>
+		<item>4进制</item>
+		<item>5进制</item>
+		<item>6进制</item>
+		<item>7进制</item>
+		<item>8进制</item>
+		<item>9进制</item>
+		<item>10进制</item>
+		<item>12进制</item>
+		<item>14进制</item>
+		<item>16进制</item>
+		<item>18进制</item>
+		<item>20进制</item>
+	</array>
+</resources>

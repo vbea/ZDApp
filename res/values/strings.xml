@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">ZDApp 6
+	</string>
+    <string name="app_name">ZDApp
+	</string>
+	<string name="about">About
+	</string>
+	<string name="help">Help
+	</string>
+	<string name="help_doc">Help Doc
+	</string>
+	<string name="help_cen">Help Centre
+	</string>
+	<string name="bxa">Bxa School
+	</string>
+	<string name="menu_settings">Settings
+	</string>
+	<string name="menu_styles">Styles
+	</string>
+	<string name="menu_torch">Torch Options
+	</string>
+	<string name="menu_support">Support
+	</string>
+	<string name="menu_other">Other Setting
+	</string>
+	<string name="sysetting">Sys Settings
+	</string>
+	<string name="menu_develop">Developer Options
+	</string>
+	<string name="menu_appset">Apps
+	</string>
+	<string name="menu_test">Engineering mode
+	</string>
+	<string name="menu_short">Shortcut
+	</string>
+	<string name="up_one_level">..
+	</string>
+	<string name="up_txt_level">Uplevel
+	</string>
+	<string name="files">File Manager
+	</string>
+	<string name="file_inter">File View Mode
+	</string>
+	<string name="file_folder">Folder Preferred
+	</string>
+	<string name="file_showhide">Show Hidden Files
+	</string>
+	<string name="file_showthumb">Show Thumbnail
+	</string>
+	<string name="file_savedc">Save the directory browsing
+	</string>
+	<string name="file_mode1">Simple Mode
+	</string>
+	<string name="file_mode2">Detail Mode
+	</string>
+	<string name="compass">Compass
+	</string>
+	<string name="comtorch">Compasd and Torch
+	</string>
+	<string name="calculator">Calculator
+	</string>
+	<string name="app_torch">Torch
+	</string>
+	<string name="hardtest">Hardware test
+	</string>
+	<string name="ok">OK
+	</string>
+	<string name="yes">Yes
+	</string>
+	<string name="no">No
+	</string>
+	<string name="cancel">Cancel
+	</string>
+	<string name="exit">Exit
+	</string>
+	<string name="save">Save
+	</string>
+	<string name="paste">Paste
+	</string>
+	<string name="smtxl">Contacts
+	</string>
+    <string name="add_user">Add
+	</string>
+    <string name="editor_user">Edit
+	</string>
+    <string name="view_user">View
+	</string>
+    <string name="name">Name：
+	</string>
+    <string name="mobile">Mobile：
+	</string>
+    <string name="home">Home：
+	</string>
+	<string name="qq">OICQ：
+	</string>
+    <string name="address">Address：
+	</string>
+    <string name="email">Email：
+	</string>
+    <string name="blog">Website：
+	</string>
+    <string name="delete_user">Delete contact
+	</string>
+    <string name="sm_editor">Edit contact
+	</string>
+	<string name="sm_add">Add contact
+	</string>
+    <string name="call_user">Call
+	</string>
+	<string name="send_sms">SMS
+	</string>
+    <string name="sendsms_user">Send SMS to
+	</string>
+	<string name="sm_nohave">Currently there is no contact data, please added.
+	</string>
+	<string name="light">Screen Torch
+	</string>
+	<string name="torch">Torch
+	</string>
+	<string name="torch_mod">Default Torch Model
+	</string>
+	<string name="eula_title">Actived Torch
+	</string>
+	<string name="eula_accept">Always
+	</string>
+	<string name="eula_refuse">Cancel
+	</string>
+	<string name="wifiap">Wi-Fi Ap
+	</string>
+	<string name="wifiapp">Wifiap
+	</string>
+	<string name="audiotest">Audiotest
+	</string>
+    <string name="filename">Please input sound test file:
+	</string>
+    <string name="playbutton">Play
+	</string>
+    <string name="stopbutton">Stop
+	</string>
+    <string name="filenoexist">Not Fond!
+	</string>
+    <string name="demo3d">3D test
+	</string>
+	<string name="h_3dtest">3D test (por)
+	</string>
+	<string name="l_3dtest">3D test (land)
+	</string>
+    <string name="widget2013">Widget
+	</string>
+	<string name="scrtest">2D test
+	</string>
+	<string name="scrtorch">Touch test
+	</string>
+	<string name="fankui">Feedback
+	</string>
+	<string name="send">Send
+	</string>
+	<string name="history">History Version
+	</string>
+	<string name="abt">App Overview
+	</string>
+	<string name="syxy"> <u>Treaty</u>
+	</string>
+	<string name="myweb"><u>Website</u>
+	</string>
+	<string name="syxy2">Treaty
+	</string>
+	<string name="mymblog"> <u>mBlog</u>
+	</string>
+	<string name="vbea">Vbe Atelier
+	</string>
+	<string name="vbea_lx">About Us
+	</string>
+	<string name="joke">Joke
+	</string>
+	<string name="date">Date Widget(2×2)
+	</string>
+    <string name="date_small">Date Widget(1×1)
+	</string>
+    <string name="widget_name">Imitate Clock(2×2)
+	</string>
+	<string name="timer">Timer
+	</string>
+	<string name="init_time_second">00:00:00
+	</string>
+	<string name="init_time_100millisecond">00:00:00.00
+	</string>
+    <string name="menu_setting_second">1s
+	</string>  
+    <string name="menu_setting_100milisec">0.1s
+	</string>
+	<string name="checkNewVer">Check for updates
+	</string>
+	<string name="welcomepage">Welcome
+	</string>
+	<string name="sensor">Gravity Sensor Test
+	</string>
+	<string name="device">Device Hardware
+	</string>
+	<string name="sm_password">Contact Locked
+	</string>
+	<string name="sm_pwdon">Contact Lock
+	</string>
+	<string name="sm_pwdoff">Contact Unlock
+	</string>
+	<string name="sm_pwdmod">Change Password
+	</string>
+	<string name="appscore">AppScore
+	</string>
+	<string name="scale">Scale
+	</string>
+	<string name="setBack">Home Background
+	</string>
+	<string name="setTheme">Themes
+	</string>
+	<string name="decode">DeCode
+	</string>
+	<string name="cdecode">Create DeCode
+	</string>
+	<string name="sdecode">Sweeps
+	</string>
+	<string name="addition">Additional
+	</string>
+	<string name="dc_create">Create
+	</string>
+	<string name="dc_color">Colors
+	</string>
+	<string name="dc_copy">Copy
+	</string>
+	<string name="dc_save">Save
+	</string>
+	<string name="osl_code">Open-source License
+	</string>
+	<string name="osl_his">History Device
+	</string>
+	<string name="osl_down">Download Code
+	</string>
+	<string name="dc_browser">Browser/Search
+	</string>
+	<string name="set_adv">Advertisement
+	</string>
+	<string name="ct_xidai">Xi Dai(Robot)
+	</string>
+	<string name="de_vibrate">Vibrate
+	</string>
+	<string name="de_beep">Beep
+	</string>
+	<string name="bc_touchmode">Change Background of Touch
+	</string>
+	<string name="countdown">Count Down
+	</string>
+	<string name="setCountdownUnit">Countdown Precision
+	</string>
+	<string name="cd_select">Select Time
+	</string>
+	<string name="start">Start
+	</string>
+	<string name="pause">Pause
+	</string>
+	<string name="stop">Stop
+	</string>
+	<string name="Continue">Continue
+	</string>
+	<string name="downcodemark">If will open function "Download Code",pls open "Open-source License" and selected bottom checkbox.After that click "Download Code" button six time.
+	</string>
+	<string name="logview">Log View
+	</string>
+	<string name="power_adv">Advanced Power Management
+	</string>
+	<string name="power_off">Power Off
+	</string>
+	<string name="power_off_fast">Power Off (Fast)
+	</string>
+	<string name="power_reboot">Reboot
+	</string>
+	<string name="power_reboot_f">Reboot (Fast)
+	</string>
+	<string name="power_recovery">To Recovery
+	</string>
+	<string name="power_bootloader">To Bootloader
+	</string>
+	<string name="power_off_ing">Shutting Down...
+	</string>
+	<string name="power_reboot_ing">Restarting...
+	</string>
+	<string name="power_reboot_ed">To Rebooting
+	</string>
+	<string name="hours">Hours
+	</string>
+	<string name="minutes">Minutes
+	</string>
+	<string name="seconds">Seconds
+	</string>
+	<string name="skip">Skip
+	</string>
+	<string name="open">Open..
+	</string>
+	<string name="rename">Rename
+	</string>
+	<string name="delete">Delete
+	</string>
+	<string name="cut">Cut
+	</string>
+	<string name="attr">Properties
+	</string>
+	<string name="bookmark">Add Bookmark
+	</string>
+	<string name="file_new">New
+	</string>
+	<string name="newfolder">New Folder
+	</string>
+	<string name="newfile">New File
+	</string>
+	<string name="refresh">Refresh
+	</string>
+	<string name="file_home">Home
+	</string>
+	<string name="sdcard">SD Card
+	</string>
+	<string name="sd_notf">SD card not mounted
+	</string>
+	<string name="store">Storage
+	</string>
+	<string name="file_book">Bookmark
+	</string>
+	<string name="newv">New
+	</string>
+	<string name="tips">Prompt
+	</string>
+	<string name="delete_moreFile">Delete more files
+	</string>
+	<string name="delete_file">Delete File
+	</string>
+	<string name="delete_folder">Delete Folder
+	</string>
+	<string name="move">Move
+	</string>
+	<string name="file_new_empty">The file name can not empty
+	</string>
+	<string name="folder_new_empty">The folder name can not empty
+	</string>
+	<string name="file_namewarning">There is already a file with the some name in this location,do you replace?
+	</string>
+	<string name="deleting_file">Deleting...
+	</string>
+	<string name="delete_success">The delete successfully.
+	</string>
+	<string name="delete_fail">The delete failed.
+	</string>
+	<string name="delete_warn">Are you sure you want to delete?
+	</string>
+	<string name="delete_warn_more">Are you sure you want to delete more file?
+	</string>
+	<string name="operate_success">The operation successfully.
+	</string>
+	<string name="operate_fail">The operation failed.
+	</string>
+	<string name="operate_cancel">The operation is canceled.
+	</string>
+	<string name="operat_complete">The operation is completed,
+	</string>
+	<string name="copy_success">Copy successfully.
+	</string>
+	<string name="copy_fail">Copy failed.
+	</string>
+	<string name="move_success">Move successfully.
+	</string>
+	<string name="move_fail">Move failed.
+	</string>
+	<string name="paste_success">Paste successfully.
+	</string>
+	<string name="paste_fail">Paste failed.
+	</string>
+	<string name="copying">Copying...
+	</string>
+	<string name="moving">Moving...
+	</string>
+	<string name="canceling">Canceling...
+	</string>
+	<string name="deletefile_notempty">This folder is not empty, are you sure you want to delete all files and folders in this folder?
+	</string>
+	<string name="sm_nosearch">No contacts
+	</string>
+	<string name="bm_bmi">BMI
+	</string>
+	<string name="bm_height">Height:
+	</string>
+	<string name="bm_weight">Weight:
+	</string>
+	<string name="bm_hheight">Your height(cm)
+	</string>
+	<string name="bm_hweight">Your weight(kg)
+	</string>
+	<string name="bm_gender">Gender:
+	</string>
+	<string name="bm_value">BMI：
+	</string>
+	<string name="bm_out">Out of range or error
+	</string>
+	<string name="bm_type">Your somatotype:
+	</string>
+	<string name="bm_thin">thin
+	</string>
+	<string name="bm_lean">lean
+	</string>
+	<string name="bm_normal">normal
+	</string>
+	<string name="bm_chubby">chubby
+	</string>
+	<string name="bm_fat">fat
+	</string>
+	<string name="bm_calcul">Calculate
+	</string>
+	<string name="bm_stheight">According to the height,the standard weight range is:
+	</string>
+	<string name="bm_stweight">According to the weight,the standard height range is:
+	</string>
+	<string name="file_sd">External Storage
+	</string>
+	<string name="passwordkey">Key Creator
+	</string>
+	<string name="book_open">Open bookmark
+	</string>
+	<string name="book_edit">Amend bookmark
+	</string>
+	<string name="book_del">Delete bookmark
+	</string>
+	<string name="lanSetting">Language setting
+	</string>
+	<string name="str_default">Default
+	</string>
+	<string name="filelog_folder">Folder
+	</string>
+	<string name="success">success
+	</string>
+	<string name="fail">fail
+	</string>
+	<string name="check_all">Check All
+	</string>
+	<string name="check_turn">Reverse selection
+	</string>
+	<string name="more">More
+	</string>
+	<string name="prop_name">Name：
+	</string>
+	<string name="prop_loca">Location：
+	</string>
+	<string name="prop_auth">Authority：
+	</string>
+	<string name="prop_size">Size：
+	</string>
+	<string name="prop_time">Timestamp：
+	</string>
+	<string name="prop_owner">Owner：
+	</string>
+	<string name="prop_group">User group：
+	</string>
+	<string name="prop_contain">Contains：
+	</string>
+	<string name="prop_linkto">Link to：
+	</string>
+	<string name="prop_bytes">Bytes
+	</string>
+	<string name="prop_files">Files
+	</string>
+	<string name="prop_folders">Folders
+	</string>
+	<string name="prop_unknown">unknown
+	</string>
+	<string name="prop_calcul">calculating...
+	</string>
+	<string name="file_send">Send
+	</string>
+	<string name="file_sharmode">Share files
+	</string>
+	<string name="txtReader">Text Reader
+	</string>
+	<string name="charset">Charset
+	</string>
+	<string name="chooscharset">Choose charset
+	</string>
+	<string name="htmlreader">HTML Viewer
+	</string>
+	<string name="emptyr">Empty record
+	</string>
+	<string name="stor_use">Use:
+	</string>
+	<string name="stor_free">Free:
+	</string>
+	<string name="stor_read">R
+	</string>
+	<string name="stor_write">W
+	</string>
+	<string name="stor_only">Readonly
+	</string>
+	<string name="file_sort">Sort mode
+	</string>
+	<string name="sort_name">Name
+	</string>
+	<string name="sort_time">Time
+	</string>
+	<string name="sort_size">Size
+	</string>
+	<string name="sort_type">Type
+	</string>
+	<string name="sort_name_down">Name(desc)
+	</string>
+	<string name="sort_time_down">Time(desc)
+	</string>
+	<string name="sort_size_down">Size(desc)
+	</string>
+	<string name="access_denied">Access denied
+	</string>
+	<string name="file_select">Select items
+	</string>
+	<string name="file_checked">Checked
+	</string>
+	<string name="file_checkno">items
+	</string>
+	<string name="item_exist">Items been in existence
+	</string>
+	<string name="cover">Replace
+	</string>
+	<string name="merge">Merge
+	</string>
+	<string name="item_exist_msg">is exist. How do you want to handle it?
+	</string>
+	<string name="check_all_pastFile">Do this for all conflicts.
+	</string>
+</resources>

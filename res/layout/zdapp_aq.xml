@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:scrollbars="none">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingBottom="5dp"
+			android:paddingLeft="5dp"
+			android:paddingRight="5dp"
+			android:paddingTop="@dimen/title_height"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_height="fill_parent"
+					android:text="姓名："
+					android:textSize="18sp"
+					android:textColor="@color/black"
+					android:gravity="center"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_name"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:textColor="@color/black"
+					android:hint="请输入你的姓名或昵称"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:layout_marginTop="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="horizontal">
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:layout_weight="1"
+					android:orientation="horizontal">
+
+					<TextView
+						android:layout_height="fill_parent"
+						android:text="性别："
+						android:textSize="18sp"
+						android:textColor="@color/black"
+						android:gravity="center"
+						android:layout_width="wrap_content"/>
+
+					<Spinner
+						android:id="@+id/aq_btn_male"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:layout_weight="1"
+						android:textSize="18sp"
+						android:textColor="@color/black"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:layout_weight="1"
+					android:orientation="horizontal">
+
+					<TextView
+						android:layout_height="fill_parent"
+						android:text="年龄："
+						android:textSize="18sp"
+						android:textColor="@color/black"
+						android:gravity="center"
+						android:layout_width="wrap_content"/>
+
+					<EditText
+						android:id="@+id/aq_age"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:background="@null"
+						android:phoneNumber="true"
+						android:textColor="@color/black"
+						android:hint="请输入你的真实年龄"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="80dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="你是从什么地方知道本软件的？"
+					android:textSize="18sp"
+					android:gravity="center"
+					android:textColor="@color/black"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_address"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:textColor="@color/black"
+					android:hint="请输入获取本软件的方式"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="100dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="你使用了本软件的哪些功能？"
+					android:textSize="18sp"
+					android:textColor="@color/black"
+					android:gravity="center"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_appname"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:hint="请输入功能名"
+					android:textColor="@color/black"
+					android:gravity="top|left"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="100dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="你觉得本软件的哪些功能好用？"
+					android:textSize="18sp"
+					android:gravity="center"
+					android:textColor="@color/black"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_appgood"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:hint="请输入功能名"
+					android:textColor="@color/black"
+					android:gravity="top|left"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="100dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="你觉得哪些功能不好用？"
+					android:textSize="18sp"
+					android:textColor="@color/black"
+					android:gravity="center"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_appfalse"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:textColor="@color/black"
+					android:hint="请输入功能名"
+					android:gravity="top|left"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="100dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="你希望本软件增加哪些功能？"
+					android:textSize="18sp"
+					android:textColor="@color/black"
+					android:gravity="center"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_apphope"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:hint="请输入功能名"
+					android:textColor="@color/black"
+					android:gravity="top|left"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="120dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="你认为哪些功能需要改进？"
+					android:textSize="18sp"
+					android:textColor="@color/black"
+					android:gravity="center"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_gaijin"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:textColor="@color/black"
+					android:hint="请输入改进意见"
+					android:gravity="top|left"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="120dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="对本软件的意见或建议："
+					android:textSize="18sp"
+					android:textColor="@color/black"
+					android:gravity="center"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_yijian"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:hint="请输入意见或建议"
+					android:textColor="@color/black"
+					android:gravity="top|left"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="80dp"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="@drawable/ui_editext"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="40dp"
+					android:text="最后，请留下任一联系方式："
+					android:textSize="18sp"
+					android:gravity="center"
+					android:textColor="@color/black"
+					android:layout_width="wrap_content"/>
+
+				<EditText
+					android:id="@+id/aq_phone"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:textColor="@color/black"
+					android:hint="请输入任一联系方式"/>
+
+			</LinearLayout>
+
+			<Button
+				android:id="@+id/aq_submit"
+				android:layout_width="fill_parent"
+				android:layout_height="@dimen/title_height"
+				android:layout_margin="10dp"
+				android:background="@drawable/bg_btn_ctmybu"
+				android:text="提交"
+				android:textSize="18sp"
+				android:textColor="@color/white">
+
+			</Button>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:gravity="center_vertical"
+				android:background="@drawable/ui_editext"
+				android:orientation="horizontal">
+
+				<TextView
+					android:id="@+id/aq_test"
+					android:layout_height="wrap_content"
+					android:textSize="18sp"
+					android:layout_width="wrap_content"/>
+
+				<ImageView
+					android:id="@+id/star_image01"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/star_gray"
+					android:layout_marginLeft="5dp"/>
+
+				<ImageView
+					android:id="@+id/star_image02"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/star_gray"/>
+
+				<ImageView
+					android:id="@+id/star_image03"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/star_gray"/>
+
+				<ImageView
+					android:id="@+id/star_image04"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/star_gray"/>
+
+				<ImageView
+					android:id="@+id/star_image05"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/star_gray"/>
+
+			</LinearLayout>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="注：信息将以短信形式发送，可能会收取信息费。"
+				android:textSize="12sp"
+				android:textColor="@color/red"/>
+		</LinearLayout>
+
+	</ScrollView>
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/zdapp_anq"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:singleLine="true"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingLeft="5dp"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+	</LinearLayout>
+	
+</RelativeLayout>
+

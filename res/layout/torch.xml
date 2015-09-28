@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/background"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<ToggleButton
+			android:id="@+id/button"
+			android:background="@null"
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:textOn="手电筒已打开"
+			android:textOff="手电筒已关闭"
+			android:checked="true"
+			android:onClick="toggleLight"
+			android:textSize="20sp"
+			android:textColor="#18ADEC">
+
+		</ToggleButton>
+
+		<TextView
+			android:layout_gravity="bottom"
+			android:gravity="center_horizontal"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_width="fill_parent"
+			android:text="提示：轻触屏幕即可打开或关闭手电筒&#x0d;&#x0a;如果你的手机不支持，请切换至屏幕手电筒"
+			android:textColor="#FF0000"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="10dp">
+
+		</TextView>
+
+	</RelativeLayout>
+
+	<SurfaceView
+		android:id="@+id/surfaceview"
+		android:layout_width="1dp"
+		android:layout_height="1dp"/>
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/TextView1"
+			android:gravity="left|center_vertical"
+			android:text="@string/torch"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+		<ImageButton
+			android:id="@+id/btn_colorlight"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_torch"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="0dp">
+
+		</ImageButton>
+		<TextView
+			android:layout_width="1dip"
+			android:layout_height="fill_parent"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:background="#434343"/>
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+</RelativeLayout>
+

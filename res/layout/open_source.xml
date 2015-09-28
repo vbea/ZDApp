@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/osl_code"
+			android:singleLine="true"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	<WebView
+		android:id="@+id/webCodeView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginBottom="40dp"/>
+	<CheckBox
+		android:id="@+id/chk_myosl"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@color/white"
+		android:text="已阅读并同意该协议"/>
+</RelativeLayout>
+</LinearLayout>
+

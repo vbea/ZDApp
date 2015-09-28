@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+	android:background="@null">
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<SurfaceView
+			android:id="@+id/preview_view"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+
+		<com.binxin.zdapp.view.ViewfinderView
+			android:id="@+id/viewfinder_view"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginTop="40dp"/>
+
+		<ImageButton
+			android:id="@+id/btn_detorch"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="55dp"
+			android:layout_marginRight="18dp"
+			android:src="@drawable/ic_torch_off"
+			android:gravity="center"
+			android:background="@null"
+			android:adjustViewBounds="true"/>
+		
+	</RelativeLayout>
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/sdecode"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_back"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

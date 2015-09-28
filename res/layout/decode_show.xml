@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:scrollbars="none">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingTop="@dimen/title_height"
+		android:paddingBottom="70dp"
+		android:orientation="vertical">
+	<TextView
+		android:id="@+id/txt1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18dp"
+		android:background="@drawable/ui_editext"
+		android:layout_margin="10dp"
+		android:layout_marginBottom="1dp"
+		android:padding="5dp"/>
+	</LinearLayout>
+</ScrollView>
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/decode"
+			android:singleLine="true"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="60dp"
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+		android:orientation="horizontal"
+		android:padding="10dp">
+
+		<Button
+			android:id="@+id/decode_GBK"
+			android:background="@drawable/bg_btn_options"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text="@string/dc_copy"
+			android:textSize="18sp"
+			android:gravity="center"/>
+		<Button
+			android:id="@+id/decode_encode"
+			android:background="@drawable/bg_btn_options"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text="解密"
+			android:textSize="18sp"
+			android:gravity="center"/>
+		<Button
+			android:id="@+id/decode_Brow"
+			android:background="@drawable/bg_btn_options"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text="@string/dc_browser"
+			android:textSize="18sp"
+			android:gravity="center"/>
+	</LinearLayout>
+</RelativeLayout>
+</LinearLayout>
+

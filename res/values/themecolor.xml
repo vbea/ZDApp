@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="title">#FF4599FF</color><!--#4599FF默认主题色-->
+	<color name="title_old">#1E90FF</color>
+	<color name="theme_col1">#EF9300FF</color>
+	<color name="theme_col2">#EFF75733</color>
+	<color name="theme_col3">#FF88F7</color>
+	<color name="theme_col4">#FA8072</color>
+	<color name="theme_col5">#DF712704</color>
+	<color name="theme_col6">#43A102</color>
+	<color name="theme_col7">#FFD306</color>
+	<color name="theme_col8">#F90000</color>
+	<color name="theme_col9">#FF44FF</color>
+	<color name="theme_col11">#FF359A</color>
+	<color name="theme_col12">#02DF82</color>
+	<color name="theme_col13">#8F4586</color>
+	<color name="theme_col14">#808040</color>
+	<color name="theme_col15">#00DB00</color>
+	<color name="theme_col16">#FFA042</color>
+	<color name="theme_col17">#1291A9</color>
+	<color name="theme_col18">#00CCFF</color>
+	<color name="theme_col10">#7F000000</color>
+</resources>

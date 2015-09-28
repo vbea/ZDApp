@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingTop="@dimen/title_height"
+			android:paddingLeft="3dp"
+			android:paddingRight="3dp"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:id="@+id/title"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="设备型号："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_model"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="系统版本："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_ver"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:text="获取中……"
+					android:textSize="18sp"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="CPU型号："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_cpumodel"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:text="获取中……"
+					android:textSize="18sp"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="CPU频率："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_cpuhz"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:text="获取中……"
+					android:textSize="18sp"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="19sp"
+					android:text="内存(ROM)："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_rom"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="19sp"
+					android:text="运存(RAM)："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_ram"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="SD卡："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_sdcard"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:paddingLeft="20dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="MAC地址："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_mac"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="屏幕分辨率："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_sclv"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="电池信息："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_battery"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				android:background="@drawable/ui_editext">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textColor="@color/black"
+					android:textSize="20sp"
+					android:text="开机时长："
+					android:layout_marginLeft="10dip"/>
+
+				<TextView
+					android:id="@+id/device_text_ontime"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:textSize="18sp"
+					android:text="获取中……"
+					android:textColor="@color/gray"
+					android:layout_marginLeft="10dip"
+					android:layout_marginRight="10dp"/>
+
+			</LinearLayout>
+		</LinearLayout>
+
+	</ScrollView>
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:gravity="right"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/device"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+</RelativeLayout>
+

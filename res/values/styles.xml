@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light">
+	</style>
+	<style name="AppBlack" parent="android:Theme.Black">
+		<item name="android:textColor">@color/black</item>
+	</style>
+	<style name="NoTitle" parent="android:Theme.DeviceDefault.Light">
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="TitleColor">
+		<!--<item name="android:TitleColor">@color/title</item>-->
+	</style>
+	<style name="AppLight" parent="android:Theme.Light">
+		<!--<item name="android:windowTitleColor">@style/TitleColor</item-->
+	</style>
+	<style name="NT">
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="NTD" parent="android:Theme.DeviceDefault.Dialog">
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="ND" parent="android:Theme.Dialog">
+	</style>
+	<style name="NoTitleF" parent="android:Theme.DeviceDefault.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+	<style name="NoTitleH" parent="android:Theme.DeviceDefault.Light">
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="HDg" parent="android:Theme.Holo.Light.Dialog">
+	</style>
+</resources>

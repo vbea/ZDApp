@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/white">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="@color/red"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff1111"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff2222"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff3333"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff4444"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff5555"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff6666"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff7777"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff8888"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ff9999"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ffaaaa"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ffbbbb"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ffcccc"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ffdddd"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#ffeeee"
+				android:layout_marginTop="0dp"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="@color/white"
+				android:gravity="center"/>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:orientation="horizontal"
+				android:layout_marginTop="10dp">
+
+				<Button
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:text="颜色渐变测试 - 红"
+					android:background="@null"/>
+
+				<Button
+					android:id="@+id/btn_next"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:text="下一步"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+

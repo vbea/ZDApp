@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:paddingTop="40dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:background="@color/grey2"
+				android:text="已安装的教程"
+				android:textSize="15sp"/>
+
+			<LinearLayout
+				android:id="@+id/bxa_java_isInstall"
+				android:layout_width="fill_parent"
+				android:layout_height="80dp"
+				android:orientation="horizontal"
+				android:padding="5dp"
+				android:background="@drawable/ui_editext">
+
+				<ImageView
+					android:layout_width="60dp"
+					android:layout_height="fill_parent"
+					android:src="@drawable/bxa_cls01"/>
+
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textSize="20sp"
+						android:text="21天学通Java（Bxa学堂）"
+						android:textColor="#0099FF"
+						android:padding="6dp"
+						android:gravity="center"
+						android:singleLine="true"/>
+
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:orientation="horizontal"
+						android:gravity="bottom|center_horizontal">
+
+						<TextView
+							android:id="@+id/bxa_btn_java_ready"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="开始阅读"
+							android:textColor="@color/webview_text"/>
+
+						<TextView
+							android:id="@+id/bxa_btn_java_api"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="4dp"
+							android:textColor="@color/webview_text"
+							android:text="API文档"/>
+
+						<TextView
+							android:id="@+id/bxa_btn_java_active"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="4dp"
+							android:textColor="@color/webview_text"
+							android:text="激活软件"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:background="@color/grey2"
+				android:text="未安装的教程"
+				android:textSize="15sp"
+				android:paddingLeft="10dp"/>
+			<LinearLayout
+				android:id="@+id/bxa_java_notInstall"
+				android:layout_width="fill_parent"
+				android:layout_height="80dp"
+				android:orientation="horizontal"
+				android:padding="5dp"
+				android:background="@drawable/ui_editext">
+
+				<ImageView
+					android:layout_width="60dp"
+					android:layout_height="fill_parent"
+					android:src="@drawable/bxa_cls01"/>
+
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textSize="20sp"
+						android:text="21天学通Java（Bxa学堂）"
+						android:textColor="#0099FF"
+						android:padding="6dp"
+						android:gravity="center"
+						android:singleLine="true"/>
+
+					<LinearLayout
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:orientation="horizontal"
+						android:gravity="bottom|center_horizontal">
+
+						<TextView
+							android:id="@+id/bxa_java_down"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="点此下载即可免费使用"
+							android:textColor="@color/webview_text"
+							android:singleLine="true"/>
+					</LinearLayout>
+
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+
+	</ScrollView>
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/bxa"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

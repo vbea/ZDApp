@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:background="@color/white"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="10dp">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:text="01"
+				android:textColor="#666666"
+				android:background="@color/black"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#111111"
+				android:text="02"
+				android:textColor="#444444"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#222222"
+				android:text="03"
+				android:textColor="#111111"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#333333"
+				android:text="04"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#444444"
+				android:text="05"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#555555"
+				android:text="06"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#666666"
+				android:text="07"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#777777"
+				android:text="08"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#888888"
+				android:text="09"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#999999"
+				android:text="10"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#aaaaaa"
+				android:text="11"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#bbbbbb"
+				android:text="12"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#cccccc"
+				android:text="13"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#dddddd"
+				android:text="14"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="#eeeeee"
+				android:text="15"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="30dp"
+				android:background="@color/white"
+				android:text="16"
+				android:textColor="@color/black"
+				android:layout_marginTop="5dp"
+				android:gravity="center"/>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="40dp"
+				android:orientation="horizontal"
+				android:layout_marginTop="10dp">
+
+				<Button
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:text="灰度测试"
+					android:background="@null"/>
+
+				<Button
+					android:id="@+id/btn_next"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:text="下一步"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+

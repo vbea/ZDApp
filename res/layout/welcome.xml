@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/welcome_b4">
+	<com.binxin.zdapp.view.VerticalViewPager
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/viewpager">
+	</com.binxin.zdapp.view.VerticalViewPager>>
+	<ImageView
+		android:id="@+id/welcome_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:gravity="center_horizontal"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"/>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="25dp"
+		android:gravity="center"
+		android:orientation="vertical">
+		<!--TextView
+			android:id="@+id/txt_welText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:gravity="center"
+			android:text="全新UI"
+			android:textSize="30sp"/>
+		<Button
+			android:id="@+id/btn_welgo"
+			android:background="@drawable/bg_btn_welview"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginLeft="60dp"
+			android:layout_marginRight="60dp"
+			android:text="立即体验"
+			android:textSize="20sp"
+			android:visibility="gone"/-->
+	</LinearLayout>
+	<com.binxin.zdapp.view.viewpager.VerPageIndicator
+		android:id="@+id/wel_indicator"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@null"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		app:radius="3dp"
+		app:fillColor="#66CCFF"
+		app:pageColor="#00000000"
+		app:strokeColor="#66CCFF"
+		app:strokeWidth="1dp"/>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_alignParentRight="true"
+		android:orientation="vertical">
+		<Button
+			android:id="@+id/btn_skip"
+			android:background="@null"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:gravity="center"
+			android:text="@string/skip"
+			android:textSize="18sp"
+			android:textColor="@color/skip_text"/>
+		
+	</LinearLayout>
+	
+</RelativeLayout>
+

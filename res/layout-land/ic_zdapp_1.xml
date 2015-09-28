@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/homePage_layout1">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:orientation="horizontal"
+		android:paddingTop="8dp">
+
+		<Button
+			android:id="@+id/files"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/ic_app_files"
+			android:background="@drawable/bg_btn_app"
+			android:text="@string/files"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/>
+
+		<Button
+			android:id="@+id/smtxl"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_adress"
+			android:text="@string/smtxl"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/>
+
+		<Button
+			android:id="@+id/light"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingRight="2dp"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_torch"
+			android:text="@string/app_torch"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="0dp"/>
+
+		<Button
+			android:id="@+id/compass"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="10dp"
+			android:background="@drawable/bg_btn_app"
+			android:text="@string/compass"
+			android:textColor="@color/ic_app_text"
+			android:drawableTop="@drawable/ic_app_compass"/>
+		<Button
+			android:id="@+id/app_widget"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_btn_app"
+			android:drawableTop="@drawable/ic_app_chat"
+			android:text="@string/ct_xidai"
+			android:textColor="@color/ic_app_text"
+			android:layout_marginRight="10dp"/>
+		
+	</LinearLayout>
+</LinearLayout>
+

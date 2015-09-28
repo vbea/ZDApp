@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="spnner">
+		<item>请选择</item>
+		<item>男</item>
+		<item>女</item>
+	</array>
+	<array name="bm_gender">
+		<item>女</item>
+		<item>男</item>
+		<item>男童</item>
+		<item>女童</item>
+	</array>
+</resources>
