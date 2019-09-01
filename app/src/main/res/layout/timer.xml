@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/timer"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+		android:padding="5dp"
+		android:textSize="50sp"
+		android:gravity="center"
+		android:text="@string/init_time_100millisecond"
+		android:id="@+id/tvTime"
+		android:background="@drawable/ui_ti_text"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="3dp">
+
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="2dp"
+			android:id="@+id/btnStartPaunse"
+			android:src="@drawable/bg_btn_start"
+			android:background="@null"/>
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnStop"
+			android:src="@drawable/bg_btn_stop"
+			android:background="@null"/>
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="2dp"
+			android:id="@+id/btnSec"
+			android:src="@drawable/bg_btn_timer0"
+			android:background="@null"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_margin="8dp"
+		android:background="@drawable/ui_ti_text"
+		android:orientation="vertical"
+		android:paddingBottom="1dp">
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:padding="5dp"
+			android:orientation="horizontal">
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="2"
+				android:text="计时："
+				android:textColor="@color/black"
+				android:textSize="15sp"/>
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_weight="1"
+				android:orientation="horizontal"
+				android:gravity="right|center_vertical">
+				<Button
+					android:id="@+id/btn_timerAdd"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="添加计时"
+					android:textColor="@color/webview_text"
+					android:background="@null"
+					android:paddingRight="10dp"/>
+				<Button
+					android:id="@+id/btn_timerClear"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="清空计时"
+					android:textColor="@color/webview_text"
+					android:background="@null"
+					android:paddingRight="10dp"/>
+			</LinearLayout>
+		</LinearLayout>
+		<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:scrollbars="none">
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/timerListView"
+			android:orientation="vertical"/>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>
+

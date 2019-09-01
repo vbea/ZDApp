@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/bg_about"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:scrollbars="none">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingTop="@dimen/title_height"
+		android:orientation="vertical">
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/vbea"
+		android:layout_marginTop="5dp"
+		android:layout_gravity="center_horizontal"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@null"
+		android:text="邠心工作室(VBEA)"
+		android:textColor="@color/blue"
+		android:gravity="center_vertical"
+		android:layout_gravity="center_horizontal"
+		android:textSize="20sp"
+		android:layout_marginTop="5dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:gravity="left"
+		android:textColor="@color/black"
+		android:layout_marginTop="5dp"
+		android:textSize="16sp"
+		android:text="关于我们：&#x0d;&#x0a;由于正德应用5.3的发布，2013年5月20日，邠心工作室成立，至今已经历两个年头。"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:text="联系我们：&#x0d;&#x0a;邮箱：vbea@foxmail.com&#x0d;&#x0a;Q  Q：248104237&#x0d;&#x0a;Q 群：222876252&#x0d;&#x0a;官网：http://www.vbes.tk(失效)&#x0d;&#x0a;论坛：http://vbea.wicp.net&#x0d;&#x0a;微博：腾讯微博(@邠心工作室)&#xd;新浪微博(@邠心工作室)"
+			android:textColor="@color/black"
+			android:layout_marginTop="5dp"
+			android:textSize="16sp"/>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:text="微信：邠心"
+		android:textColor="@color/black"
+		android:layout_marginTop="5dp"
+		android:textSize="16sp"/>
+	<Button
+		android:id="@+id/intoWeixin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@null"
+		android:text="点击进入"
+		android:textColor="@color/blue"/>
+</LinearLayout>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:text="贴吧：邠心吧、邠心工作室吧、bxa学堂吧&#x0d;&#x0a;地址：四川省成都市高新区&#x0d;&#x0a;"
+			android:textColor="@color/black"
+			android:textSize="16sp"/>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="邠心工作室邀您一起参与正德应用的开发和设计，有意请联系邠心工作室或投稿至上面的邮箱，或到论坛发帖，谢谢！&#x0d;&#x0a;"
+			android:textSize="16sp"
+			android:textColor="#eeeeee"/>
+	</LinearLayout>
+</ScrollView>
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/vbea"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="spnner">
+		<item>select</item>
+		<item>male</item>
+		<item>female</item>
+	</array>
+	<array name="bm_gender">
+		<item>female</item>
+		<item>male</item>
+		<item>boy</item>
+		<item>girl</item>
+	</array>
+	<array name="hexadecimal">
+		<item>2 binary</item>
+		<item>4 quaternary</item>
+		<item>6 six base</item>
+		<item>8 octal</item>
+		<item>10 decimal</item>
+		<item>16 hexadecimal</item>
+	</array>
+	<array name="hexadecimal2">
+		<item>2 binary</item>
+		<item>4 quaternary</item>
+		<item>6 six base</item>
+		<item>8 octal</item>
+		<item>10 decimal</item>
+		<item>12 ten binary</item>
+		<item>16 hexadecimal</item>
+		<item>18 ten octal</item>
+		<item>20 two decimal</item>
+	</array>
+	<array name="array_theme">
+		<item>(Default)</item>
+		<item>Color 1</item>
+		<item>Color 2</item>
+		<item>Color 3</item>
+		<item>Color 4</item>
+		<item>Color 5</item>
+		<item>Color 6</item>
+		<item>Color 7</item>
+		<item>Color 8</item>
+		<item>Color 9</item>
+		<item>Color 10</item>
+		<item>Color 11</item>
+		<item>Color 12</item>
+		<item>Color 13</item>
+		<item>Color 14</item>
+		<item>Color 15</item>
+		<item>Color 16</item>
+		<item>Color 17</item>
+		<item>Color 18</item>
+		<item>Translucent</item>
+	</array>
+</resources>

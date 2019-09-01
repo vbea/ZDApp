@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:orientation="vertical"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="true">>
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/TextView1"
+			android:gravity="left|center_vertical"
+			android:text="@string/wifiap"
+			android:textColor="@color/white"
+			android:textSize="25sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn08"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@id/widget0"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="45dp"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/btnScan"
+					android:layout_width="fill_parent"
+					android:layout_height="45dp"
+					android:layout_weight="1"
+					android:text="打开WiFi并扫描"
+					android:textSize="17sp"
+					android:textColor="@color/btn_text_colors"
+					android:gravity="center"
+					android:background="@drawable/selector_push">
+
+				</Button>
+
+				<Button
+					android:id="@+id/btn_wifiast"
+					android:layout_width="fill_parent"
+					android:layout_height="45dp"
+					android:layout_weight="1"
+					android:text="Wi-Fi连接设置"
+					android:background="@drawable/selector_push"
+					android:textSize="17sp"
+					android:textColor="@color/btn_text_colors"
+					android:gravity="center">
+
+				</Button>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1px"
+				android:background="@color/title"/>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="45dp"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/btnGetConnectedIP"
+					android:layout_width="fill_parent"
+					android:layout_height="45dp"
+					android:text="无线IP地址"
+					android:textSize="17sp"
+					android:textColor="@color/btn_text_colors"
+					android:gravity="center"
+					android:background="@drawable/selector_push"
+					android:layout_weight="1">
+
+				</Button>
+
+				<Button
+					android:layout_width="fill_parent"
+					android:layout_height="45dp"
+					android:text="无线IP设置"
+					android:id="@+id/wifiip"
+					android:background="@drawable/selector_push"
+					android:textSize="17sp"
+					android:textColor="@color/btn_text_colors"
+					android:layout_weight="1">
+
+				</Button>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1px"
+				android:background="@color/title"/>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="45dp"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/btnOpenAP"
+					android:layout_width="fill_parent"
+					android:layout_height="45dp"
+					android:text="打开无线热点"
+					android:textSize="17sp"
+					android:textColor="@color/btn_text_colors"
+					android:gravity="center"
+					android:background="@drawable/selector_push"
+					android:layout_weight="1">
+
+				</Button>
+
+				<Button
+					android:id="@+id/btn_wifist"
+					android:layout_width="fill_parent"
+					android:layout_height="45dp"
+					android:text="无线热点设置"
+					android:textSize="17sp"
+					android:textColor="@color/btn_text_colors"
+					android:background="@drawable/selector_push"
+					android:gravity="center"
+					android:layout_weight="1">
+
+				</Button>
+
+			</LinearLayout>
+		</LinearLayout>
+		</ScrollView>
+			<ScrollView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:paddingLeft="0dp">
+
+				<LinearLayout
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:orientation="vertical">
+
+					<Button
+						android:id="@+id/btnConnectAP"
+						android:layout_width="fill_parent"
+						android:background="@color/title"
+						android:layout_height="1px"
+						android:text="连接无线热点"
+						android:gravity="center">
+
+					</Button>
+
+					<TextView
+						android:id="@+id/result"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:text="@string/wifiap"
+						android:padding="10dp"
+						android:textColor="@color/black">
+
+					</TextView>
+
+					<Button
+						android:id="@+id/btnGetOwmId"
+						android:layout_width="fill_parent"
+						android:layout_height="1px"
+						android:text="查看ip地址"
+						android:gravity="center">
+
+					</Button>
+
+					<Button
+						android:id="@+id/btnCloseAP"
+						android:layout_width="fill_parent"
+						android:layout_height="1px"
+						android:text="查看ip地址"
+						android:gravity="center">
+
+					</Button>
+
+				</LinearLayout>
+
+			</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>
+

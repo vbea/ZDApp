@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:gravity="left"
+	android:paddingRight="10dp"
+	android:paddingBottom="5dp">
+	<TextView
+		android:id="@+id/txt_msgfrom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/ic_from_msg"
+		android:gravity="left|center_vertical"
+		android:autoLink="web"
+		android:paddingLeft="20dp"
+		android:paddingRight="10dp"
+		android:textSize="18sp"
+		android:textColor="@color/black"/>
+</LinearLayout>
+

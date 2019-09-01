@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/ic_icon"/>
+
+		<LinearLayout
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:paddingRight="5dp"
+			android:paddingBottom="2dp"
+			android:orientation="vertical"
+			android:gravity="center_vertical">
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/file_book"
+				android:textColor="#Ffffff"
+				android:textSize="22sp"
+				android:singleLine="true"/>
+		</LinearLayout>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/book_listView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	</ListView>
+</LinearLayout>
+

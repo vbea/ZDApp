@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:fitsSystemWindows="true"
+	android:clipToPadding="false"
+	android:background="@drawable/background">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/themeLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/title_height"
+			android:layout_alignParentTop="true"
+			android:gravity="center_vertical"
+			android:orientation="horizontal"
+			android:background="@color/title">
+
+			<ImageView
+				android:id="@+id/cont_titImage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:src="@drawable/ic_icon"/>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="horizontal"
+				android:gravity="center_vertical"
+				android:id="@+id/cont_titLayout">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:gravity="left|center_vertical"
+					android:text="@string/smtxl"
+					android:textColor="#Ffffff"
+					android:textSize="22sp"
+					android:layout_weight="1.0"
+					android:paddingLeft="10dp"
+					android:layout_gravity="center_vertical"/>
+
+				<ImageButton
+					android:id="@+id/btn_search"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:src="@drawable/bg_btn_search"
+					android:layout_gravity="center_vertical"
+					android:gravity="center_vertical"
+					android:background="@null"
+					android:adjustViewBounds="true"
+					android:paddingRight="8dp"/>
+
+				<TextView
+					android:layout_width="1dip"
+					android:layout_height="fill_parent"
+					android:layout_marginTop="8dp"
+					android:layout_marginBottom="8dp"
+					android:background="#434343"/>
+
+			</LinearLayout>
+			<RelativeLayout
+				android:id="@+id/cont_searchLayout"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:layout_margin="2dp"
+				android:background="@drawable/ui_search_text"
+				android:orientation="horizontal"
+				android:gravity="center_vertical"
+				android:visibility="gone"
+				android:paddingLeft="5dp">
+				<EditText
+					android:id="@+id/cont_editext"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:background="@null"
+					android:gravity="center_vertical"
+					android:textCursorDrawable="@drawable/ui_cursor"
+					android:textColor="@color/white"
+					android:textSize="18sp"
+					android:paddingRight="5dp"
+					android:singleLine="true"/>
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:layout_alignParentRight="true"
+					android:src="@drawable/ic_search"/>
+			</RelativeLayout>
+			<ImageButton
+				android:id="@+id/btn_back"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:src="@drawable/bg_btn_close"
+				android:layout_gravity="right|center_vertical"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:background="@null"
+				android:adjustViewBounds="true"
+				android:paddingLeft="5dp"
+				android:paddingRight="10dp"/>
+
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/sm_noSLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="20dp"
+			android:visibility="gone">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="18sp"
+				android:textColor="@color/grey"
+				android:text="@string/sm_nosearch"/>
+
+		</LinearLayout>
+		<ListView
+			android:id="@+id/ContactList"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+		android:id="@+id/sm_noLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textSize="18sp"
+			android:textColor="@color/grey"
+			android:text="@string/sm_nohave"/>
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/sm_newUser"
+		android:layout_width="57dp"
+		android:layout_height="57dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/ui_btn_shape"
+		android:layout_margin="15dp"
+		android:padding="5dp"
+		android:textColor="@color/btn_shape_text"
+		android:textStyle="normal"
+		android:textSize="25sp"
+		android:text="＋"/>
+
+</RelativeLayout>
+

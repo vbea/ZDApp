@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:paddingTop="@dimen/title_height"
+			android:orientation="vertical"
+			android:paddingLeft="5dp"
+			android:paddingRight="5dp">
+
+			<TableRow
+				android:layout_width="fill_parent"
+				android:layout_height="45dp"
+				android:layout_marginTop="2dp">
+
+				<TextView
+					android:text="@string/name"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:textColor="@color/black"
+					android:textSize="18sp"/>
+
+				<TextView
+					android:id="@+id/TextView_Name"
+					android:layout_width="fill_parent"
+					android:layout_height="45dp"
+					android:textColor="@color/cyan"
+					android:textSize="18sp"
+					android:paddingLeft="10dp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="fill_parent"
+				android:layout_height="45dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:text="@string/mobile"
+					android:textColor="@color/black"
+					android:textSize="18sp"/>
+
+				<TextView
+					android:id="@+id/TextView_Mobile"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:textColor="@color/cyan"
+					android:textSize="18sp"
+					android:paddingLeft="10dp"
+					android:autoLink="phone"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="fill_parent"
+				android:layout_height="45dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:text="@string/home"
+					android:textColor="@color/black"
+					android:textSize="18sp"/>
+
+				<TextView
+					android:id="@+id/TextView_Home"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:textColor="@color/cyan"
+					android:textSize="18sp"
+					android:paddingLeft="10dp"
+					android:autoLink="phone"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="fill_parent"
+				android:layout_height="45dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:text="@string/qq"
+					android:textColor="@color/black"
+					android:textSize="18sp"/>
+
+				<TextView
+					android:id="@+id/TextView_qq"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:textColor="@color/cyan"
+					android:textSize="18sp"
+					android:paddingLeft="10dp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="fill_parent"
+				android:layout_height="45dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:text="@string/address"
+					android:textColor="@color/black"
+					android:textSize="18sp"/>
+
+				<TextView
+					android:id="@+id/TextView_Address"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:textColor="@color/cyan"
+					android:textSize="18sp"
+					android:paddingLeft="10dp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="fill_parent"
+				android:layout_height="45dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:text="@string/email"
+					android:textColor="@color/black"
+					android:textSize="18sp"/>
+
+				<TextView
+					android:id="@+id/TextView_Email"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:textColor="@color/cyan"
+					android:textSize="18sp"
+					android:paddingLeft="10dp"
+					android:autoLink="email"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="fill_parent"
+				android:layout_height="45dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:text="@string/blog"
+					android:textColor="@color/black"
+					android:textSize="18sp"/>
+
+				<TextView
+					android:id="@+id/TextView_Blog"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:textColor="@color/cyan"
+					android:textSize="18sp"
+					android:paddingLeft="10dp"
+					android:autoLink="web"/>
+
+			</TableRow>
+
+		</LinearLayout>
+
+	</ScrollView>
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_alignParentTop="true"
+		android:layout_height="@dimen/title_height"
+		android:background="@color/title"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/smtxl"
+			android:textColor="@color/white"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+		<ImageButton
+			android:id="@+id/btn_edit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_edit"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="5dp"/>
+		<TextView
+			android:layout_width="1dip"
+			android:layout_height="fill_parent"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:background="#434343"/>
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingLeft="5dp"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+</RelativeLayout>
+

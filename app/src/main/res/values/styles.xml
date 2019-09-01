@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light">
+		<item name="android:colorPrimary">@color/title</item>
+	</style>
+	<style name="AppBlack" parent="android:Theme.Black">
+		<item name="android:textColor">@color/black</item>
+	</style>
+	<style name="NoTitle" parent="android:Theme.DeviceDefault.Light">
+		<item name="android:windowNoTitle">true</item>
+		<!--item name="android:colorPrimary">@color/title</item-->
+		<!--item name="android:colorPrimaryDark">@color/green</item>
+		<item name="android:colorAccent">@color/white</item-->
+	</style>
+	<style name="TitleColor">
+		<item name="android:textColor">@color/white</item>
+	</style>
+	<style name="AppLight" parent="android:Theme.Light">
+		<!--<item name="android:windowTitleColor">@style/TitleColor</item-->
+	</style>
+	<style name="NT">
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="NTD" parent="android:Theme.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<!--item name="android:windowFrame">@null</item><边框-->
+		<!--item name="android:windowIsFloating">true</item><是否浮在activity之上>
+		<item name="android:windowIsTranslucent">false</item><半透明-->
+		<!--item name="android:windowBackground">@drawable/bg_select_dialog</item><背景透明>
+		<item name="android:backgroundDimEnabled">false</item><-模糊>
+		<item name="android:backgroundDimAmount">0.6</item-->
+	</style>
+	<style name="ND" parent="android:Theme.Dialog">
+	</style>
+	<style name="NoTitleF" parent="android:Theme.DeviceDefault.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+	<style name="NoTitleH" parent="android:Theme.DeviceDefault.Light">
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="HDg" parent="android:Theme.Holo.Light.Dialog">
+	</style>
+</resources>

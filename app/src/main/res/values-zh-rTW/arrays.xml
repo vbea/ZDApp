@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="spnner">
+		<item>請選擇</item>
+		<item>男</item>
+		<item>女</item>
+	</array>
+	<array name="bm_gender">
+		<item>女</item>
+		<item>男</item>
+		<item>男童</item>
+		<item>女童</item>
+	</array>
+	<array name="hexadecimal">
+		<item>2進制</item>
+		<item>4進制</item>
+		<item>6進制</item>
+		<item>8進制</item>
+		<item>10進制</item>
+		<item>16進制</item>
+	</array>
+	<array name="hexadecimal2">
+		<item>2進制</item>
+		<item>4進制</item>
+		<item>6進制</item>
+		<item>8進制</item>
+		<item>10進制</item>
+		<item>12進制</item>
+		<item>16進制</item>
+		<item>18進制</item>
+		<item>20進制</item>
+	</array>
+	<array name="array_theme">
+		<item>默認</item>
+		<item>顏色1</item>
+		<item>顏色2</item>
+		<item>顏色3</item>
+		<item>顏色4</item>
+		<item>顏色5</item>
+		<item>顏色6</item>
+		<item>顏色7</item>
+		<item>顏色8</item>
+		<item>顏色9</item>
+		<item>顏色10</item>
+		<item>顏色11</item>
+		<item>顏色12</item>
+		<item>顏色13</item>
+		<item>顏色14</item>
+		<item>顏色15</item>
+		<item>顏色16</item>
+		<item>顏色17</item>
+		<item>顏色18</item>
+		<item>半透明</item>
+	</array>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/TextView1"
+			android:gravity="left|center_vertical"
+			android:text="@string/scrtest"
+			android:textColor="#Ffffff"
+			android:textSize="25sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="正德应用▪屏幕测试&#x0d;&#x0a;已完成你的屏幕测试，你的屏幕是否完好呢？分享一下吧&#x0d;&#x0a;点击“结束测试”分享并回到开始页面。"
+		android:textColor="@color/black"
+		android:textSize="20sp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"/>
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal"
+		android:gravity="center">
+		<RadioButton
+			android:id="@+id/rdb_perfect"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="完美"/>
+		<RadioButton
+			android:id="@+id/rdb_ordinary"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="一般"/>
+		<RadioButton
+			android:id="@+id/rdb_bad"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="不好"/>
+	</RadioGroup>
+	<Button
+		android:id="@+id/sc_end"
+		android:layout_height="42dp"
+		android:text="结束测试"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/bg_btn_options"
+		android:textSize="22sp"/>
+	<Button
+		android:id="@+id/sc_restar"
+		android:layout_height="42dp"
+		android:text="重新测试"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/bg_btn_options"
+		android:textSize="22sp"/>
+
+</LinearLayout>

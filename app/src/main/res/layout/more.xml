@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+
+	<ScrollView
+		android:id="@+id/scrollView04"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scrollbars="none">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:paddingTop="@dimen/title_height">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/TextView3"
+				android:text="软件介绍："
+				android:textSize="15sp"/>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="本软件仅适用于安卓4.0及以上手机使用，对于在其他手机上使用造成的一切后果，邠心工作室不承担任何责任。\n本软件主要为安卓初学者提供免费的编程解决方案，下载本软件会附送源码一份，可在帮助页面中下载使用。源码会不定期更新"
+					android:textSize="18sp"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="功能介绍："
+				android:textSize="15sp">
+
+			</TextView>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/more_gongneng"
+				android:textColor="@color/coral"
+				android:textSize="18sp">
+
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="软件适配介绍："
+				android:textSize="15sp"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="由于该应用是在手机上开发完成的，有可能在某些设备上无法运行，请参考帮助中心的“历史版本开发设备”，理论上越接近开发设备的配置，运行效果越好。"
+				android:textSize="17sp"
+				android:textColor="#00DE7A"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/TextView3"
+				android:text="关于本软件："
+				android:textSize="15sp"/>
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView4"
+				android:text="@string/aboutzdapp"
+				android:textSize="17sp"
+				android:textColor="@color/blue">
+
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="软件英文适配："
+				android:textSize="15sp"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView4"
+				android:text="本应用到目前为止还未完全适配英文界面，只有部分界面的按钮和文字有英文版，我们还在继续努力适配。亲们在使用中有任何问题都可以在帮助中心给我们反馈。"
+				android:textSize="17sp"
+				android:textColor="#E86BF1"/>
+		</LinearLayout>
+
+	</ScrollView>
+	<LinearLayout
+		android:id="@+id/themeLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/title_height"
+		android:layout_alignParentTop="true"
+		android:gravity="right"
+		android:orientation="horizontal"
+		android:background="@color/title">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_icon"
+			android:layout_gravity="center_vertical">
+
+		</ImageView>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="left|center_vertical"
+			android:text="@string/abt"
+			android:textColor="#Ffffff"
+			android:textSize="22sp"
+			android:layout_weight="1.0"
+			android:paddingLeft="10dp"
+			android:layout_gravity="center_vertical">
+
+		</TextView>
+
+		<ImageButton
+			android:id="@+id/btn_close"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bg_btn_close"
+			android:layout_gravity="right|center_vertical"
+			android:gravity="right"
+			android:background="@null"
+			android:adjustViewBounds="true"
+			android:paddingRight="10dp">
+
+		</ImageButton>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

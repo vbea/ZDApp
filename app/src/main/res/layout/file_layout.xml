@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:paddingLeft="0dp"
+	android:paddingRight="0dp"
+	android:descendantFocusability="blocksDescendants">
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+	<ImageView
+		android:id="@+id/file_imgLayout"
+		android:layout_height="fill_parent"
+		android:layout_width="40dp"
+		android:paddingLeft="3dp"
+		android:paddingTop="3dp"
+		android:paddingBottom="3dp"
+		android:scaleType="fitCenter"
+		android:adjustViewBounds="true"/>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:padding="3dp"
+		android:orientation="vertical"
+		android:gravity="center_vertical">
+		<TextView
+			android:id="@+id/file_txtNameLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:textColor="#333333"/>
+		<TextView
+			android:id="@+id/file_txtDetailLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="14sp"
+			android:textColor="@color/grey"/>
+	</LinearLayout>
+	</LinearLayout>
+	<CheckBox
+		android:id="@+id/file_chkFile"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="3dp"
+		android:focusable="false"/>
+</RelativeLayout>
+</LinearLayout>
+

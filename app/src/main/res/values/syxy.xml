@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="zdappsyxy">One, the software use agreement.\n\t
+		This agreement is the user (natural persons, legal persons or social groups) and bin\'s minimalist technique between heart studio about \"ZhengDe application software products (hereinafter referred to as\" the software product \") legal agreement. Once installed, copy, or otherwise use this software product, it indicates that the agreed to accept the conditions of constraints. If the user is not the conditions of the agreement, please do not use this software product. \n
+		Second, the software product protection clause \n \t \t
+		1) the copyright and other intellectual property rights of software products and other related rights or interests (including but not limited to already obtained or in the future can be obtained for copyright, patent, trademark, business secret, etc.) are studio all bin\'s minimalist technique of heart. This software product is subject to the copyright law of the People\'s Republic of China and the international copyright treaty and other intellectual property law and the protection of the treaty. The user only non-exclusive right to use the software products.\t \n \t
+		2) the user shall not: delete all other copies of this software and information about copyright; This software reverse engineering, such as the disassembly, decompiled, etc.\t \n \t
+		3) the software products in present situation, bin\'s minimalist technique of heart studio does not guarantee that the software products can or can\'t fully meet user requirements, the user manual, help files, operating instructions, introductory content is only for users of software such as document reference, shall not be interpreted as the user of any commitments. Bin\'s minimalist technique of heart studio reserves to upgrade software version, to the function, content, structure, interface, operation mode, etc. The right to modify or automatic updates. \t \n \t
+		4) in order to better serve the users, or in order to provide the user with the information content of a character\'s need, the software product may collect, spread some information, but bin\'s minimalist technique of heart studio promised not to provide such information to an unauthorized third party, in order to protect users\' privacy. \t \n \t
+		5) the use of the software products shall be borne by the user\'s own risk, within the scope of the applicable laws allow maximum, bin\'s minimalist technique of heart studio in any case not just because of the use or not use this software product of special, accidental, not the direct or indirect losses shall bear the liability for compensation. Even if has been told in advance the possibility of damage. \t \n \t
+		6) bin\'s minimalist technique of heart studio definition information content including: text, software, and sound; This software provides users with business information, all of these content copyright, trademark and other intellectual property rights and ownership of the protection of the law. So that users can only use in the company or organization authorized under the content, but not to copy, modify, compiling the content, or create content related derivatives. \t \n \t
+		7) if you do not abide by the terms of this agreement any of the items, bin\'s minimalist technique of heart studio has the authority to the termination of this agreement, and retain liability shall be pursued through legal means. \n
+		Three, bin\'s minimalist technique of studio has the right to the interpretation of terms in the above content and the right to modify. Such as the interpretation of the user of bin\'s minimalist technique of studio or modify, should immediately stop using the software product. The behavior of the users continue to use the software product will be deemed to be the explanation of bin\'s minimalist technique of heart studio or modified to accept. \n
+		Fourth, the disputes arising from the performance of this agreement, the parties agree that, in accordance with the laws of the People\'s Republic of China, by bin\'s minimalist technique of studio is located to the jurisdiction of the court that has jurisdiction over the heart. 
+	</string>
+	<string name="zdappsyxy2">Vbe Studio \t\nDec. 16th,2013
+	</string>
+	<string name="aboutzdapp">本软件是由本人自学Java开发完成，并建立“邠心工作室”制作和更新。\n本软件是在手机上用“AIDE集成开发环境”开发，在编写过程中遇到的一些问题在一些论坛大神的帮助下得到了解决，在此感谢他们；同时感谢百度贴吧（Android开发吧、Java吧等）、安卓巴士、腾讯应用宝、百度应用、CSDN、友盟、GitHub等；感谢AIDE提供的手机开发平台；感谢腾讯开放平台、百度手机助手等提供的软件上线服务。
+	</string>
+	<string name="more_gongneng">1、文件管理器\n既可以满足日常所需的文件操作，如新建文件夹、新建文件、重命名、复制、移动、删除、打开等，又可以进行高级的文件处理，如查看文件详细信息、对文件进行MD5码和SHA-1码计算、查看文件和文件夹的权限、所有者和用户组，查看SD卡总容量和剩余容量，保存上次浏览的位置等。ROOT之后还能查看系统隐藏文件；
+	\n2、通讯录\n可以存储独立于系统的通讯录，并提供和系统相同的功能和加密的功能；
+	\n3、各种工具应有尽有，手电筒、指南针、计算器、进制转换、日志查看器，还有硬件测试和硬件信息；
+	\n4、原创的二维码加密功能，还有二维码生成工具和扫描工具，可以扫描二维码和条码；
+	\n5、时间工具\n秒表和倒计时是我们日常都会使用到的工具，本软件的秒表可支持从毫秒到小时的显示，最多可以显示100小时的时间。倒计时的UI是经过精心设计的，美观大方，还支持精度的更改；
+	\n6、机器人聊天\n无聊时候和汐黛聊聊，你就不会觉得太闷了，你还可以去轻松一刻消磨时间；
+	\n7、开源项目\n随软件附带源码，开放式的APP；
+	\n8、Android M扁平化风格，某些页面是仿照Android M来设计的；
+	\n9、唯一一款可随意关闭广告的APP，不为赚钱，只为用户体验；
+	\n10、更多功能将在以后版本推出。
+	</string>
+	<string name="zdapp_anq">Questionnaire for ZDApp 6.7
+	</string>
+	<string name="vbea_Copyright">Vbe Atelier(Studio) \nCopyright © 2013-2016 VBEA. All Rights Reserved"
+	</string>
+	<string name="zdapp_ver">V6.7.9 for Android\nBuild 6799
+	</string>
+	<string name="zdapp_ver1">V6.7.9.6799
+	</string>
+	<string name="vbea_copy">ZDApp_V6.7_VBEA_2016.09.15
+	</string>
+</resources>

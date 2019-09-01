@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:oneshot="false">
+	<item android:drawable="@drawable/scroll_up_01" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_02" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_03" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_04" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_05" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_06" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_07" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_08" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_09" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_10" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_11" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_12" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_11" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_10" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_09" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_08" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_07" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_06" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_05" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_04" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_03" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_02" android:duration="100"/>
+	<item android:drawable="@drawable/scroll_up_01" android:duration="0"/>
+</animation-list>

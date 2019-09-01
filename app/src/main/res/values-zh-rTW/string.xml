@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">正德應用6
+	</string>
+    <string name="app_name">正德應用
+	</string>
+	<string name="about">關於
+	</string>
+	<string name="help">幫助
+	</string>
+	<string name="help_cen">幫助中心
+	</string>
+	<string name="help_doc">幫助文檔
+	</string>
+	<string name="bxa">Bxa學堂
+	</string>
+	<string name="menu_settings">設置
+	</string>
+	<string name="menu_styles">風格設置
+	</string>
+	<string name="menu_torch">手電筒選項
+	</string>
+	<string name="menu_support">支持
+	</string> 
+	<string name="menu_other">其他設置
+	</string>
+	<string name="sysetting">系統設置
+	</string>
+	<string name="menu_develop">開發者選項
+	</string>
+	<string name="menu_appset">應用程序管理
+	</string>
+	<string name="menu_test">工程模式
+	</string>
+	<string name="menu_short">快捷入口
+	</string> 
+	<string name="up_txt_level">上級目錄
+	</string>
+	<string name="files">文件管理器
+	</string>
+	<string name="file_inter">查看模式
+	</string>
+	<string name="file_folder">文件夾優先
+	</string>
+	<string name="file_showhide">顯示隱藏文件
+	</string>
+	<string name="file_showthumb">顯示縮略圖
+	</string>
+	<string name="file_savedc">保存瀏覽的目錄
+	</string>
+	<string name="file_mode1">簡單模式
+	</string>
+	<string name="file_mode2">詳細模式
+	</string>
+	<string name="compass">指南針
+	</string>
+	<string name="comtorch">指南針手電筒
+	</string>
+	<string name="calculator">計算器
+	</string>
+	<string name="app_torch">手電筒
+	</string>
+	<string name="hardtest">硬件測試
+	</string>
+	<string name="ok">確定
+	</string>
+	<string name="cancel">取消
+	</string>
+	<string name="yes">是
+	</string>
+	<string name="no">否
+	</string>
+	<string name="exit">退出
+	</string>
+	<string name="save">保存
+	</string>
+	<string name="paste">粘貼
+	</string>
+	<string name="smtxl">通訊錄
+	</string>
+    <string name="add_user">添加
+	</string>
+    <string name="editor_user">修改
+	</string>
+    <string name="view_user">查看
+	</string>
+	<string name="send_sms">消息
+	</string>
+    <string name="name">姓名：
+	</string>
+    <string name="mobile">手機：
+	</string>
+    <string name="home">電話：
+	</string>
+	<string name="qq">ＱＱ：
+	</string>
+    <string name="address">地址：
+	</string>
+    <string name="email">郵箱：
+	</string>
+    <string name="blog">主頁：
+	</string>
+    <string name="delete_user">刪除聯系人
+	</string>
+    <string name="sm_editor">編輯聯系人
+	</string>
+	<string name="sm_add">添加聯系人
+	</string>
+    <string name="call_user">呼叫
+	</string>
+    <string name="sendsms_user">發短信給
+	</string>
+	<string name="sm_nohave">當前沒有聯系人數據，請添加聯系人
+	</string>
+	<string name="light">屏幕手電筒
+	</string>
+	<string name="torch">閃光燈手電筒
+	</string>
+	<string name="torch_mod">默認手電筒模式
+	</string>
+	<string name="eula_title">激活手電筒
+	</string>
+	<string name="eula_accept">始終
+	</string>
+	<string name="eula_refuse">算了
+	</string>
+	<string name="wifiap">無線與熱點連接
+	</string>
+	<string name="wifiapp">無線與熱點
+	</string>
+	<string name="audiotest">聽筒測試
+	</string>
+    <string name="filename">請輸入要測試的聲音文件名稱:
+	</string>
+    <string name="playbutton">播放
+	</string>
+    <string name="stopbutton">停止
+	</string>
+    <string name="filenoexist">沒有發現，請確認後重試
+	</string>
+    <string name="demo3d">屏幕3D測試
+	</string>
+	<string name="h_3dtest">屏幕3D測試(豎)
+	</string>
+	<string name="l_3dtest">屏幕3D測試(橫)
+	</string>
+    <string name="widget2013">桌面小部件
+	</string>
+	<string name="scrtest">屏幕2D測試
+	</string>
+	<string name="scrtorch">屏幕多點測試
+	</string>
+	<string name="fankui">意見反饋
+	</string>
+	<string name="send">發送
+	</string>
+	<string name="history">歷史版本
+	</string>
+	<string name="abt">軟件說明
+	</string>
+	<string name="syxy"> <u>使用協議</u>
+	</string>
+	<string name="myweb"><u>官方網站</u>
+	</string>
+	<string name="syxy2">使用協議
+	</string>
+	<string name="mymblog"> <u>官方微博</u>
+	</string>
+	<string name="vbea">邠心工作室
+	</string>
+	<string name="vbea_lx">關於我們
+	</string>
+	<string name="joke">輕松壹刻
+	</string>
+	<string name="date">日期小部件(2×2)
+	</string>
+    <string name="date_small">日期小部件(1×1)
+	</string>
+    <string name="widget_name">模擬時鐘(2×2)
+	</string>
+	<string name="timer">秒表
+	</string>
+	<string name="init_time_second">00:00:00
+	</string>
+	<string name="init_time_100millisecond">00:00:00.00
+	</string>  
+    <string name="menu_setting_timer_unit">設置計時單位
+	</string>  
+    <string name="menu_about">關於
+	</string>  
+    <string name="menu_exit">退出
+	</string>  
+    <string name="menu_setting_second">1秒
+	</string>  
+    <string name="menu_setting_100milisec">0.1秒
+	</string>
+	<string name="checkNewVer">檢查更新
+	</string>
+	<string name="welcomepage">歡迎頁面
+	</string>
+	<string name="sensor">重力感應與翻轉測試
+	</string>
+	<string name="device">設備硬件信息
+	</string>
+	<string name="sm_password">通訊錄加密
+	</string>
+	<string name="sm_pwdon">開啟加密
+	</string>
+	<string name="sm_pwdoff">關閉加密
+	</string>
+	<string name="sm_pwdmod">密碼修改
+	</string> 
+	<string name="appscore">給應用評分
+	</string>
+	<string name="scale">進制轉換
+	</string>
+	<string name="setBack">首頁背景設置
+	</string>
+	<string name="setTheme">全局主題設置
+	</string>
+	<string name="decode">二維碼掃描
+	</string>
+	<string name="cdecode">二維碼生成器
+	</string>
+	<string name="sdecode">掃壹掃
+	</string>
+	<string name="addition">附加應用
+	</string>
+	<string name="dc_create">生成
+	</string>
+	<string name="dc_color">顏色
+	</string>
+	<string name="dc_copy">復制
+	</string>
+	<string name="dc_save">保存
+	</string>
+	<string name="dc_browser">瀏覽/搜索
+	</string>
+	<string name="de_vibrate">振動
+	</string>
+	<string name="de_beep">鈴聲
+	</string>
+	<string name="osl_code">開放源代碼許可
+	</string>
+	<string name="osl_his">歷史版本開發設備
+	</string>
+	<string name="osl_down">源碼下載
+	</string>
+	<string name="set_adv">首頁廣告
+	</string>
+	<string name="ct_xidai">汐黛
+	</string>
+	<string name="bc_touchmode">滑動切換背景
+	</string>
+	<string name="countdown">倒計時
+	</string>
+	<string name="setCountdownUnit">倒計時精度設置
+	</string>
+	<string name="cd_select">選擇時間
+	</string>
+	<string name="start">開始
+	</string>
+	<string name="pause">暫停
+	</string>
+	<string name="stop">停止
+	</string>
+	<string name="Continue">繼續
+	</string>
+	<string name="downcodemark">要打開<b>源碼下載</b>功能，請進入<b>開放源代碼許可</b>中勾選“已閱讀並同意該協議”，然後在“源碼下載”按鈕上連續單擊6次即可打開。
+	</string>
+	<string name="logview">日誌查看器
+	</string>
+	<string name="power_adv">高級電源管理
+	</string>
+	<string name="power_off">關機
+	</string>
+	<string name="power_off_fast">快速關機
+	</string>
+	<string name="power_reboot">重啟
+	</string>
+	<string name="power_reboot_f">快速重啟
+	</string>
+	<string name="power_recovery">重啟至Recovery
+	</string>
+	<string name="power_bootloader">重啟至Bootloader
+	</string>
+	<string name="power_off_ing">正在關機……
+	</string>
+	<string name="power_reboot_ing">正在重啟……
+	</string>
+	<string name="power_reboot_ed">正在重啟至
+	</string>
+	<string name="hours">時
+	</string>
+	<string name="minutes">分
+	</string>
+	<string name="seconds">秒
+	</string>
+	<string name="skip">跳過
+	</string>
+	<string name="open">打開
+	</string>
+	<string name="close">關閉
+	</string>
+	<string name="rename">重命名
+	</string>
+	<string name="delete">刪除
+	</string>
+	<string name="cut">剪切
+	</string>
+	<string name="attr">屬性
+	</string>
+	<string name="bookmark">添加書簽
+	</string>
+	<string name="file_new">新建
+	</string>
+	<string name="newfolder">新建文件夾
+	</string>
+	<string name="newfile">新建文件
+	</string>
+	<string name="refresh">刷新
+	</string>
+	<string name="file_home">主文件夾
+	</string>
+	<string name="sdcard">SD卡
+	</string>
+	<string name="sd_notf">未掛載SD卡
+	</string>
+	<string name="store">存儲狀態
+	</string>
+	<string name="file_book">書簽
+	</string>
+	<string name="newv">新
+	</string>
+	<string name="tips">提示
+	</string>
+	<string name="delete_moreFile">刪除多個文件(夾)
+	</string>
+	<string name="delete_file">刪除文件
+	</string>
+	<string name="delete_folder">刪除文件夾
+	</string>
+	<string name="move">移動
+	</string>
+	<string name="operate">操作
+	</string>
+	<string name="file_new_empty">文件名稱不能為空
+	</string>
+	<string name="folder_new_empty">文件夾名稱不能為空
+	</string>
+	<string name="file_new_exsist">文件名重復，是否覆蓋？
+	</string>
+	<string name="deleting_file">正在刪除…
+	</string>
+	<string name="delete_success">刪除成功
+	</string>
+	<string name="delete_fail">刪除失敗
+	</string>
+	<string name="delete_warn">確定要刪除嗎？
+	</string>
+	<string name="delete_warn_more">確定要刪除已選中的項目？
+	</string>
+	<string name="operate_success">操作成功
+	</string>
+	<string name="operate_fail">操作失敗
+	</string>
+	<string name="operate_cancel">操作已取消
+	</string>
+	<string name="copy_success">復制成功
+	</string>
+	<string name="copy_fail">復制失敗
+	</string>
+	<string name="move_success">移動成功
+	</string>
+	<string name="move_fail">移動失敗
+	</string>
+	<string name="paste_success">粘貼成功
+	</string>
+	<string name="paste_fail">粘貼失敗
+	</string>
+	<string name="copying">正在復制…
+	</string>
+	<string name="moving">正在移動…
+	</string>
+	<string name="canceling">正在取消…
+	</string>
+	<string name="calculating">正在計算…
+	</string>
+	<string name="deletefile_notempty">當前文件夾不為空，確定要刪除該文件夾下的所有文件和文件夾？
+	</string>
+	<string name="operat_complete">操作完成：
+	</string>
+	<string name="sm_nosearch">沒有聯系人
+	</string>
+	<string name="bm_bmi">身體質量指數
+	</string>
+	<string name="bm_height">身高：
+	</string>
+	<string name="bm_weight">體重：
+	</string>
+	<string name="bm_hheight">請輸入妳的身高(單位:cm)
+	</string>
+	<string name="bm_hweight">請輸入妳的體重(單位:kg)
+	</string>
+	<string name="bm_gender">性別：
+	</string>
+	<string name="bm_value">BMI值：
+	</string>
+	<string name="bm_out">輸入值錯誤或超出範圍
+	</string>
+	<string name="bm_type">妳的體型：
+	</string>
+	<string name="bm_thin">瘦弱
+	</string>
+	<string name="bm_lean">偏瘦
+	</string>
+	<string name="bm_normal">正常
+	</string>
+	<string name="bm_chubby">超重
+	</string>
+	<string name="bm_fat">肥胖
+	</string>
+	<string name="bm_calcul">計算
+	</string>
+	<string name="bm_stheight">根據當前身高，標準的體重範圍是：
+	</string>
+	<string name="bm_stweight">根據當前體重，標準的身高範圍是：
+	</string>
+	<string name="file_sd">存儲設備
+	</string>
+	<string name="passwordkey">密鑰生成器
+	</string>
+	<string name="book_open">打開書簽
+	</string>
+	<string name="book_edit">修改書簽
+	</string>
+	<string name="book_del">刪除書簽
+	</string>
+	<string name="lanSetting">語言設置
+	</string>
+	<string name="str_default">默認
+	</string>
+	<string name="filelog_folder">文件夾
+	</string>
+	<string name="success">成功
+	</string>
+	<string name="fail">失敗
+	</string>
+	<string name="check_all">全選
+	</string>
+	<string name="check_turn">反選
+	</string>
+	<string name="more">更多
+	</string>
+	<string name="prop_name">名稱：
+	</string>
+	<string name="prop_loca">位置：
+	</string>
+	<string name="prop_auth">權限：
+	</string>
+	<string name="prop_size">大小：
+	</string>
+	<string name="prop_time">時間戳：
+	</string>
+	<string name="prop_owner">所有者：
+	</string>
+	<string name="prop_group">用戶組：
+	</string>
+	<string name="prop_contain">包含：
+	</string>
+	<string name="prop_linkto">鏈接到：
+	</string>
+	<string name="prop_bytes">字節
+	</string>
+	<string name="prop_files">個文件
+	</string>
+	<string name="prop_folders">個文件夾
+	</string>
+	<string name="prop_unknown">未知
+	</string>
+	<string name="prop_calcul">正在計算…
+	</string>
+	<string name="file_send">發送
+	</string>
+	<string name="file_sharmode">選擇發送方式
+	</string>
+	<string name="txtReader">文本閱讀器
+	</string>
+	<string name="charset">編碼
+	</string>
+	<string name="chooscharset">選擇編碼
+	</string>
+	<string name="htmlreader">網頁查看器
+	</string>
+	<string name="emptyr">清空記錄
+	</string>
+	<string name="stor_use">已用
+	</string>
+	<string name="stor_free">剩余
+	</string>
+	<string name="stor_read">讀
+	</string>
+	<string name="stor_write">寫
+	</string>
+	<string name="stor_only">只讀
+	</string>
+	<string name="file_sort">排序方式
+	</string>
+	<string name="sort_name">名稱
+	</string>
+	<string name="sort_time">日期
+	</string>
+	<string name="sort_size">大小
+	</string>
+	<string name="sort_type">類型
+	</string>
+	<string name="sort_name_down">名稱(降序)
+	</string>
+	<string name="sort_time_down">日期(降序)
+	</string>
+	<string name="sort_size_down">大小(降序)
+	</string>
+	<string name="access_denied">拒絕訪問
+	</string>
+	<string name="file_select">選擇項目
+	</string>
+	<string name="file_checked">已選擇
+	</string>
+	<string name="file_checkno">個項目
+	</string>
+	<string name="item_exist">項目已存在
+	</string>
+	<string name="cover">覆蓋
+	</string>
+	<string name="merge">合並
+	</string>
+	<string name="item_exist_msg">已存在，妳想如何處理？
+	</string>
+	<string name="check_all_pastFile">應用到所有已存在的項目
+	</string>
+	<string name="turn_on">開
+	</string>
+	<string name="turn_off">關
+	</string>
+	<string name="timeup">時間到
+	</string>
+	<string name="brows">瀏覽
+	</string>
+	<string name="crecycle">通訊錄回收箱
+	</string>
+	<string name="validTime">無效的時間
+	</string>
+	<string name="bxa_inst">已安裝的教程
+	</string>
+	<string name="bxa_uninst">未安裝的教程
+	</string>
+	<string name="dc_decry">解密
+	</string>
+	<string name="home_exit">再按一次返回鍵退出
+	</string>
+	<string name="input_psd">請輸入密碼
+	</string>
+</resources>

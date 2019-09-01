@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<TextView
+		android:background="@drawable/ui_menu_bg"
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"/>
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingLeft="18dp">
+		
+		<LinearLayout
+			android:id="@+id/popChildView"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:paddingRight="2dp"
+			android:paddingTop="2dp">
+			<Button
+				android:id="@+id/opt_settings"
+				android:layout_width="fill_parent"
+				android:text="@string/menu_settings"
+				android:layout_height="40dp"
+				android:paddingLeft="20dp"
+				android:paddingRight="0dp"
+				android:background="@drawable/ui_btn_menu_bg"
+				android:textSize="16sp"
+				android:textColor="@color/btn_text_colors"
+				android:textAllCaps="false"
+				android:gravity="left|center_vertical"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="#EEdddddd"/>
+
+			<Button
+				android:id="@+id/opt_addition"
+				android:layout_width="fill_parent"
+				android:text="@string/addition"
+				android:layout_height="40dp"
+				android:paddingLeft="20dp"
+				android:paddingRight="0dp"
+				android:background="@drawable/ui_btn_menu_bg"
+				android:textSize="16sp"
+				android:textColor="@color/btn_text_colors"
+				android:textAllCaps="false"
+				android:gravity="left|center_vertical"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="#EEdddddd"/>
+			<Button
+				android:id="@+id/opt_sweety"
+				android:layout_width="fill_parent"
+				android:text="@string/sdecode"
+				android:layout_height="40dp"
+				android:background="@drawable/ui_btn_menu_bg"
+				android:textSize="16sp"
+				android:textColor="@color/btn_text_colors"
+				android:paddingLeft="20dp"
+				android:paddingRight="0dp"
+				android:textAllCaps="false"
+				android:gravity="left|center_vertical"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="#EEdddddd"/>
+			<Button
+				android:id="@+id/opt_help"
+				android:layout_width="fill_parent"
+				android:text="@string/help"
+				android:layout_height="40dp"
+				android:background="@drawable/ui_btn_menu_bg"
+				android:textSize="16sp"
+				android:textColor="@color/btn_text_colors"
+				android:paddingLeft="20dp"
+				android:paddingRight="0dp"
+				android:textAllCaps="false"
+				android:gravity="left|center_vertical"/>
+			
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="#EEdddddd"/>
+			<Button
+				android:id="@+id/opt_about"
+				android:layout_width="fill_parent"
+				android:text="@string/about"
+				android:layout_height="40dp"
+				android:background="@drawable/ui_btn_menu_bg"
+				android:textSize="16sp"
+				android:textColor="@color/btn_text_colors"
+				android:paddingLeft="20dp"
+				android:paddingRight="0dp"
+				android:textAllCaps="false"
+				android:gravity="left|center_vertical"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="#EEdddddd"/>
+			<Button
+				android:id="@+id/opt_exit"
+				android:layout_width="fill_parent"
+				android:text="@string/exit"
+				android:layout_height="40dp"
+				android:background="@drawable/ui_btn_menu_bg"
+				android:textSize="16sp"
+				android:paddingLeft="20dp"
+				android:paddingRight="0dp"
+				android:gravity="left|center_vertical"
+				android:textAllCaps="false"
+				android:textColor="@color/btn_text_colors"/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="#EEdddddd"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
